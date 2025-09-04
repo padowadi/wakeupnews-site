@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WakeUpNews YouTube Video</title>
+    <meta name="description" content="WakeUpNews पर ताज़ा YouTube वीडियो देखें।">
+</head>
+<body>
+    <h1>WakeUpNews YouTube Video</h1>
+
+    <!-- YouTube Video Embed -->
+    <iframe id="youtube-frame" width="560" height="315" 
+        frameborder="0" allowfullscreen>
+    </iframe>
+
+    <script>
+        // URL से video ID fetch करना
+        const params = new URLSearchParams(window.location.search);
+        const videoId = params.get('v'); // Example: ?v=c_QqDaDkrh0
+        if(videoId){
+            document.getElementById('youtube-frame').src = https://www.youtube.com/embed/${videoId};
+        } else {
+            document.getElementById('youtube-frame').src = '';
+        }
+    </script>
+</body>
+</html>
