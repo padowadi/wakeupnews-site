@@ -1,0 +1,43 @@
+title: "WakeUpNews"
+description: "सच्ची खबरें, बिना सेंसरशिप"
+url: "https://padowadi.github.io" # अपने GitHub Pages URL से बदलना
+baseurl: "/wakeupnews-site"        # repo का नाम
+
+remote_theme: "mmistakes/minimal-mistakes@latest"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-remote-theme
+
+paginate: 5
+paginate_path: "/page:num/"
+
+author:
+  name: "WakeUpNews Team"
+  avatar: "/assets/images/logo.png"
+  bio: "जनता की आवाज़"
+  location: "India"
+  links:
+    - label: "YouTube"
+      url: "https://youtube.com/@WakeUpNews"
+    - label: "Telegram"
+      url: "https://t.me/WakeUpNews"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+markdown: kramdown
+theme: minimal-mistakes-jekyl
