@@ -1,27 +1,17 @@
-{% for post in site.posts limit:10 %}
-<div class="post" style="border:1px solid #ddd; border-radius:8px; padding:15px; margin-bottom:20px; box-shadow:0 2px 6px rgba(0,0,0,0.1); font-family:Arial, sans-serif; background:#fff;">
-
-  <!-- Post Title -->
-  <h2 style="font-size:1.2rem; margin-bottom:10px;">
-    <a href="{{ post.url }}" style="text-decoration:none; color:#222;">{{ post.title }}</a>
-  </h2>
-
-  <!-- Post Description -->
-  <p style="font-size:1rem; line-height:1.5;">{{ post.description }}</p>
-
-  <!-- Post Thumbnail -->
-  {% if post.thumbnail %}
-    <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="max-width:100%; border-radius:6px; margin:10px 0;">
-  {% endif %}
-
-  <!-- YouTube Link -->
-  {% if post.youtube %}
-    <p style="margin-top:10px;">
-      <a href="{{ post.youtube }}" target="_blank" style="color:#0073e6; font-weight:bold; text-decoration:none;">
-        ▶ वीडियो देखने के लिए क्लिक करें
-      </a>
-    </p>
-  {% endif %}
-
-</div>
-{% endfor %}
+<h2>ताज़ा पोस्ट</h2>
+<ul>
+  {% for post in site.posts limit:10 %}
+    <li style="margin-bottom:20px;">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.description }}</p>
+      
+      {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" style="max-width:300px; border-radius:8px;">
+      {% endif %}
+      
+      {% if post.youtube %}
+        <p><a href="{{ post.youtube }}" target="_blank">▶ वीडियो देखने के लिए क्लिक करें</a></p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
