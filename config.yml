@@ -1,43 +1,48 @@
-title: "WakeUpNews"
-description: "सच्ची खबरें, बिना सेंसरशिप"
-url: "https://padowadi.github.io" # अपने GitHub Pages URL से बदलना
-baseurl: "/wakeupnews-site"        # repo का नाम
+---
+title: "Asia Cup 2025 India vs Pakistan previews - WakeUpNews"
+description: Asia Cup 2025 – India vs Pakistan | 14 September
+भारत और पाकिस्तान का मुकाबला हमेशा सिर्फ़ क्रिकेट नहीं होता…
+ये होता है जुनून का, एटीट्यूड का और पूरे एशिया की धड़कनों का!
 
-remote_theme: "mmistakes/minimal-mistakes@latest"
+इस वीडियो में जानिए:
+✅ पिछले दो एशिया कप मुकाबलों का पूरा सफ़र
+✅ India vs Pakistan हेड-टू-हेड रिव्यू
+✅ 2022 और 2023 फाइनल्स की कहानी
+✅ Player vs Player – Shubman Gill vs Fakhar Zaman, Suryakumar vs Salman Agha, Bumrah vs Shaheen Afridi
+✅ ऐतिहासिक लम्हे – बुमराह की जादुई गेंदबाज़ी और बाबर-रिज़वान की रिकॉर्ड साझेदारी
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-archives
-  - jekyll-remote-theme
+📌 यह मैच 14 सितम्बर 2025 को एशिया का सबसे बड़ा क्रिकेट टकराव बनने वाला है।
+क्या भारत अपनी बादशाहत कायम रखेगा या पाकिस्तान नई कहानी लिखेगा?
 
-paginate: 5
-paginate_path: "/page:num/"
 
-author:
-  name: "WakeUpNews Team"
-  avatar: "/assets/images/logo.png"
-  bio: "जनता की आवाज़"
-  location: "India"
-  links:
-    - label: "YouTube"
-      url: "https://youtube.com/@WakeUpNews"
-    - label: "Telegram"
-      url: "https://t.me/WakeUpNews"
+---
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+🌐 Follow WakeUpNews on Social Media:
+🔵 Facebook: facebook.com/share/16GzkusWH7
+📸 Instagram: instagram.com/wakeup786news
+🐦 X (Twitter): x.com/wakeup786news
+💻 GitHub: github.com/padowadi
+🌍 Website: sites.google.com/view/wakeupnews2022
 
-markdown: kramdown
-theme: minimal-mistakes-jekyl
+📧 Mail us: luckylol786@gmail.com
+
+
+---
+
+📢 अगर वीडियो अच्छा लगे तो LIKE & SHARE ज़रूर करें,
+और 🔔 WakeUpNews को सब्सक्राइब करना न भूलें ❤️
+
+
+---
+
+🏷️ Tags
+
+Asia Cup 2025, India vs Pakistan 2025, Pakistan vs India 2025, Ind vs Pak 14 September, Asia Cup live preview, Ind vs Pak head to head, Bumrah vs Shaheen Afridi, Shubman Gill vs Fakhar Zaman, Suryakumar vs Salman Agha, Babar Azam Rizwan record, Ind vs Pak Asia Cup highlights, WakeUpNews cricket
+
+
+---
+
+📌 Hashtags
+
+#AsiaCup2025 #IndiaVsPakistan #PakistanVsIndia #IndVsPak #WakeUpNews #CricketRivalry #WorldCricket WakeUpNews पर।"
+---
