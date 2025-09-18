@@ -8,7 +8,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-
   <!-- Structured Data for YouTube video -->
   <script type="application/ld+json">
   {
@@ -71,6 +70,12 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
@@ -78,7 +83,7 @@
   <h1>WakeUpNews</h1>
   <p>न्यूज़ और वीडियो अपडेट्स</p>
 
-  <!-- ====== Video Section ====== -->
+  <!-- ====== पुराना वीडियो सेक्शन ====== -->
   <section>
     <h2>पूरा वीडियो देखें 👇</h2>
 
@@ -100,7 +105,28 @@
             allowfullscreen>
     </iframe>
   </section>
-  <!-- ====== End Video Section ====== -->
+  <!-- ====== End पुराना वीडियो सेक्शन ====== -->
+
+  <!-- ====== नया वीडियो सेक्शन ====== -->
+  <section>
+    <h2>नए वीडियो देखें 👇</h2>
+
+    <!-- Embedded YouTube video -->
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/-Cf7Dbdz9-I" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+    </iframe>
+
+    <p>देखें 18 सितंबर 2025 का नया वीडियो।</p>
+
+    <!-- Direct link to post -->
+    <p><a href="./_posts/2025-09-18-newvideo.md">Post Link</a></p>
+  </section>
+  <!-- ====== End नया वीडियो सेक्शन ====== -->
 
   <footer>
     <p>© 2025 WakeUpNews</p>
