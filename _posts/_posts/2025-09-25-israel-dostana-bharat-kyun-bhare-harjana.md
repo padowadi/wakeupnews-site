@@ -55,3 +55,4 @@ thumbnail: /assets/images/israel-bharat-thumb.jpg
 ---
 
 ✍️ यह पोस्ट WakeUpNews की ओर से आपके लिए तैयार किया गया है।
+ार किया गया है।
