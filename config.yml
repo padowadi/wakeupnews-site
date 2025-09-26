@@ -1,16 +1,13 @@
 title: "WakeUpNews"
 description: "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews"
-baseurl: "" # GitHub Pages पर खाली रहने दो
+baseurl: ""
 url: "https://padowadi.github.io/wakeupnews-site"
 
-# Permalink rule ताकि हर नई पोस्ट सिर्फ नाम से खुले
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
-# Markdown engine
 markdown: kramdown
 theme: minima
 
-# Plugins (अगर GitHub Pages allow करता है)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
