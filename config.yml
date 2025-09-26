@@ -3,7 +3,7 @@ description: "सच्चाई को सामने लाने वाल�
 baseurl: "/wakeupnews-site"
 url: "https://padowadi.github.io"
 
-# Permalink safe for free GitHub Pages
+# Safe permalink for free GitHub Pages
 permalink: /:title/
 
 markdown: kramdown
