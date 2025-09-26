@@ -1,9 +1,10 @@
 title: "WakeUpNews"
 description: "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews"
-baseurl: ""
-url: "https://padowadi.github.io/wakeupnews-site"
+baseurl: "/wakeupnews-site"
+url: "https://padowadi.github.io"
 
-permalink: /:year/:month/:day/:title/
+# Permalink safe for free GitHub Pages
+permalink: /:title/
 
 markdown: kramdown
 theme: minima
