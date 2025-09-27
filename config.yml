@@ -1,14 +1,27 @@
 title: "WakeUpNews"
 description: "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews"
-baseurl: "/wakeupnews-site"
+baseurl: "/wakeupnews-site" # अगर repository में ये नाम है
 url: "https://padowadi.github.io"
 
 # Safe permalink for free GitHub Pages
 permalink: /:title/
 
+# Markdown parser
 markdown: kramdown
+
+# Theme
 theme: minima
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Images path / assets
+# अब सारी images '_assets/images/' में हैं
+# किसी पोस्ट में refer करते समय इसी path का use करें
+assets:
+  images_dir: "_assets/images"
+
+# Optional: future posts visible immediately
+future: true
