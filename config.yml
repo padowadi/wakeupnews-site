@@ -3,8 +3,8 @@ description: "सच्चाई को सामने लाने वाल�
 baseurl: "/wakeupnews-site" # अगर repository में ये नाम है
 url: "https://padowadi.github.io"
 
-# Safe permalink for free GitHub Pages
-permalink: /:title/
+# Structured permalink for SEO-friendly URLs
+permalink: /:year/:month/:day/:title.html
 
 # Markdown parser
 markdown: kramdown
