@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - WakeUpNews</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="robots" content="index, follow">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+    /* Optional: post styling */
+    .post {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .post img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .post-title {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+    }
+    .post-title a {
+      text-decoration: none;
+      color: #222;
+    }
+    .post-meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .post-desc {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WakeUpNews</h1>
+    <p>सच्चाई को सामने लाने वाली आवाज़</p>
+  </header>
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <footer>
+    <p>© 2025 WakeUpNews</p>
+  </footer>
+
+</body>
+</html>
