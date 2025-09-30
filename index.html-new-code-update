@@ -8,6 +8,8 @@ title: "WakeUpNews"
     <div class="post">
       {% if post.thumbnail %}
         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+      {% else %}
+        <img src="/assets/images/default-thumb.jpg" alt="Default Thumbnail">
       {% endif %}
       <div class="post-content">
         <h2 class="post-title">
