@@ -1,18 +1,3 @@
----
-title: "इसराइल से दोस्ताना भारत क्यों भरे हरजाना?"
-slug: israel-bharat
-date: 2025-09-25 10:00:00 +0530
-categories:
-  - International
-  - Politics
-tags:
-  - Israel
-  - India
-  - ForeignPolicy
-image: /assets/images/israel-bharat-thumb.jpg
-layout: post
----
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
