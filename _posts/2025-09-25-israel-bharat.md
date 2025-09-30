@@ -5,7 +5,7 @@
   "name": "इसराइल से दोस्ताना भारत क्यों भरे हरजाना?",
   "description": "भारत और इसराइल के रिश्ते हमेशा से चर्चा में रहे हैं। लेकिन बड़ा सवाल यह है कि इस दोस्ती की असली कीमत कौन चुका रहा है?",
   "thumbnailUrl": "https://padowadi.github.io/wakeupnews-site/assets/images/israel-bharat-thumb.jpg",
-  "uploadDate": "2025-09-25T10:00:00+0530",
+  "uploadDate": "2025-09-25T10:00:00+05:30",
   "embedUrl": "https://www.youtube.com/embed/GIx1emSHlB8?si=yq5JJLkwGtes176P"
 }
 </script>
