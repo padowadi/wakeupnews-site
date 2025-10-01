@@ -9,10 +9,13 @@ tags:
   - Israel
   - India
   - ForeignPolicy
-thumbnail: /assets/images/thumbnail-israel-bharat-2025.jpg
+thumbnail: /assets/images/israel-bharat-thumbnail.jpg
 layout: post
 description: "भारत और इसराइल की दोस्ताना नीति और उसका असर आम जनता पर"
-image: /assets/images/thumbnail-israel-bharat-2025.jpg
+image: /assets/images/israel-bharat-thumbnail.jpg
+header:
+  image: /assets/images/israel-bharat-thumbnail.jpg
+  caption: "इसराइल-भारत रिपोर्ट"
 ---
 
 <script type="application/ld+json">
