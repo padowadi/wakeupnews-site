@@ -1,50 +1,12 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
+---
+layout: post
+title: "Asia Cup 2025 Controversy: सूर्यकुमार यादव और सना मीर आमने-सामने | India vs Pakistan Clash"
+date: 2025-10-05
+description: "Asia Cup 2025 में भारत बनाम पाकिस्तान मुकाबले के दौरान शुरू हुआ बड़ा विवाद।"
+author: "WakeUpNews"
+tags: [WakeUpNews, SuryakumarYadav, SanaMir, AsiaCup2025, IndiaVsPakistan]
 
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <!-- Website Thumbnail -->
-  {% if page.website_thumbnail %}
-  <div class="post-thumbnail" style="text-align:center; margin: 20px 0;">
-    <img src="{{ page.website_thumbnail }}" alt="{{ page.title }}" style="max-width:100%; height:auto; border-radius:8px;">
-  </div>
-  {% endif %}
-
-  <!-- Post Content -->
-  <main>
-    {{ content }}
-  </main>
-
-  <!-- YouTube Video Embed (auto thumbnail) -->
-  {% if page.youtube_thumbnail %}
-  <div class="video-container" style="text-align:center; margin: 20px 0;">
-    <!-- iframe should be inside the post content, YouTube handles its own thumbnail -->
-  </div>
-  {% endif %}
-
-  <!-- Tags -->
-  {% if page.tags %}
-  <div class="post-tags" style="margin-top: 20px;">
-    <strong>Tags:</strong>
-    {% for tag in page.tags %}
-      <span>{{ tag }}</span>{% if forloop.last == false %}, {% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  <footer style="margin-top: 40px; text-align:center;">
-    <p>© WakeUpNews</p>
-  </footer>
-
-</body>
-</html>
+# Dual thumbnails
+website_thumbnail: "/assets/images/asia-cup-trophy-controversy-thumb.jpg"
+youtube_id: "IEuXDxw3OQ0"
+---
