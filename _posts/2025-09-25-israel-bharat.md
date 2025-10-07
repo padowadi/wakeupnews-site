@@ -9,7 +9,7 @@ tags:
   - Israel
   - India
   - ForeignPolicy
-thumbnail: /assets/images/israel-bharat-thumbnail.jpg
+thumbnail: /assets/images/israel-bharat-thumb.jpg
 layout: post
 description: "भारत और इसराइल की दोस्ताना नीति और उसका असर आम जनता पर"
 image: /assets/images/israel-bharat-thumbnail.jpg
