@@ -1,12 +1,41 @@
----
-layout: post
-title: "Asia Cup 2025 Controversy: सूर्यकुमार यादव और सना मीर आमने-सामने | India vs Pakistan Clash"
-date: 2025-10-05
-description: "Asia Cup 2025 में भारत बनाम पाकिस्तान मुकाबले के दौरान शुरू हुआ बड़ा विवाद।"
-author: "WakeUpNews"
-tags: [WakeUpNews, SuryakumarYadav, SanaMir, AsiaCup2025, IndiaVsPakistan]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ page.website_thumbnail | relative_url }}">
+  <meta property="og:url" content="{{ page.url | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-# Dual thumbnails
-website_thumbnail: "/assets/images/asia-cup-trophy-controversy-thumb.jpg"
-youtube_id: "IEuXDxw3OQ0"
----
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: "%B %d, %Y" }} | By {{ page.author }}</p>
+  </header>
+
+  <!-- Thumbnail -->
+  <div style="text-align:center; margin:20px 0;">
+    <img src="{{ page.website_thumbnail | relative_url }}" alt="Thumbnail" style="max-width:100%; height:auto;">
+  </div>
+
+  <!-- YouTube Embed -->
+  {% if page.youtube_id %}
+  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:20px;">
+    <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" 
+            frameborder="0" allowfullscreen
+            style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+  </div>
+  {% endif %}
+
+  <!-- Post Content -->
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>
