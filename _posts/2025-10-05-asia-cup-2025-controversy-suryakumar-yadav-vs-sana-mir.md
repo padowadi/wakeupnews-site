@@ -46,12 +46,12 @@ WakeUpNews इस रिपोर्ट में आपको दिखाए�
 
 🔥 Connect with WakeUpNews:
 
-- 🔵 *Facebook* → [facebook.com/WakeUpNews](https://facebook.com/WakeUpNews)  
-- 📸 *Instagram* → [instagram.com/WakeUpNews](https://instagram.com/WakeUpNews)  
-- 🐦 *X (Twitter)* → [x.com/WakeUp_News](https://x.com/WakeUp_News)  
-- 💻 *GitHub* → [github.com/padowadi](https://github.com/padowadi)  
-- 🌍 *Website* → [sites.google.com/view/wakeupnews2022](https://sites.google.com/view/wakeupnews2022)  
-- 📧 *Mail us* → [luckylol786@gmail.com](mailto:luckylol786@gmail.com)
+- 🔵 Facebook → [facebook.com/WakeUpNews](https://facebook.com/WakeUpNews)  
+- 📸 Instagram → [instagram.com/WakeUpNews](https://instagram.com/WakeUpNews)  
+- 🐦 X (Twitter) → [x.com/WakeUp_News](https://x.com/WakeUp_News)  
+- 💻 GitHub → [padowadi GitHub Pages](https://padowadi.github.io/wakeupnews-site/)  
+- 🌍 Website → [WakeUpNews Google Site — Asia Cup Controversy](https://sites.google.com/view/wakeupnews2020/asia-cup-and-nidha-mir-surya-kimar-controversy)  
+- 📧 Mail us → [luckylol786@gmail.com](mailto:luckylol786@gmail.com)
 
 ---
 
