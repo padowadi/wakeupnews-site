@@ -7,8 +7,8 @@ author: "WakeUpNews"
 tags: [WakeUpNews, SuryakumarYadav, SanaMir, AsiaCup2025, IndiaVsPakistan, CricketNews, Controversy, WomenT20]
 
 # Dual thumbnails
-website_thumbnail: "/assets/images/asia-cup-website-thumb.jpg"  # पोस्ट preview / वेबसाइट thumbnail
-youtube_thumbnail: "https://img.youtube.com/vi/IEuXDxw3OQ0/maxresdefault.jpg"  # वीडियो iframe thumbnail
+website_thumbnail: "/assets/images/asia-cup-trophy-controversy-thumb.jpg"
+youtube_thumbnail: "https://img.youtube.com/vi/IEuXDxw3OQ0/maxresdefault.jpg"
 ---
 
 <!-- Website Thumbnail -->
@@ -44,12 +44,14 @@ WakeUpNews इस रिपोर्ट में आपको दिखाए�
 
 ---
 
-🔥 Follow WakeUpNews on Social Media:  
-- YouTube: [WakeUpNews](https://www.youtube.com/@WakeUpNewsOfficial)  
-- Instagram: [instagram.com/WakeUpNews](https://instagram.com/WakeUpNews)  
-- Telegram: [t.me/WakeUpNews](https://t.me/WakeUpNews)  
-- X (Twitter): [x.com/WakeUp_News](https://x.com/WakeUp_News)  
-- Facebook: [facebook.com/WakeUpNews](https://facebook.com/WakeUpNews)
+🔥 Connect with WakeUpNews:
+
+- 🔵 *Facebook* → [facebook.com/WakeUpNews](https://facebook.com/WakeUpNews)  
+- 📸 *Instagram* → [instagram.com/WakeUpNews](https://instagram.com/WakeUpNews)  
+- 🐦 *X (Twitter)* → [x.com/WakeUp_News](https://x.com/WakeUp_News)  
+- 💻 *GitHub* → [github.com/padowadi](https://github.com/padowadi)  
+- 🌍 *Website* → [sites.google.com/view/wakeupnews2022](https://sites.google.com/view/wakeupnews2022)  
+- 📧 *Mail us* → [luckylol786@gmail.com](mailto:luckylol786@gmail.com)
 
 ---
 
