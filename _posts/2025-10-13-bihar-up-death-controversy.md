@@ -1,21 +1,4 @@
-[14:01, 13/10/2025] property dealers: ---
-layout: post
-title: "Asia Cup 2025 Controversy: सूर्यकुमार यादव और सना मीर आमने-सामने | India vs Pakistan Clash"
-date: 2025-10-05
-description: "Asia Cup 2025 में भारत बनाम पाकिस्तान मुकाबले के दौरान शुरू हुआ बड़ा विवाद — जब सूर्यकुमार यादव और सना मीर के बीच सोशल मीडिया पर तगड़ा टकराव देखने को मिला। WakeUpNews की रिपोर्ट में जानिए पूरा सच।"
-author: "WakeUpNews"
-tags: [WakeUpNews, SuryakumarYadav, SanaMir, AsiaCup2025, IndiaVsPakistan, CricketNews, Controversy, WomenT20]
-
-# Dual thumbnails
-website_thumbnail: "/assets/images/asia-cup-trophy-controversy-thumb.jpg"
-youtube_thumbnail: "https://img.youtube.com/vi/IEuXDxw3OQ0/maxresdefault.jpg"
 ---
-
-<!-- Website Thumbnail -->
-{% if page.website_thumbnail %}
-<div class="post-thumbnail" style="text-align:center; m…
-[14:01, 13/10/2025] property dealers: <iframe width="560" height="315" src="https://www.youtube.com/embed/QwWj4tl1n60?si=O5loy2jpU5QAzzGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-[14:12, 13/10/2025] property dealers: ---
 layout: post
 title: "बिहार में चुनाव… यूपी में मौत! | राजनाथ सिंह के इलाके से उठी इंसाफ की पुकार | WakeUpNews Exclusive"
 date: 2025-10-13
