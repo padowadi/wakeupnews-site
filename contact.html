@@ -1,31 +1,50 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - WakeUpNews</title>
-  <style>
-    body { font-family: sans-serif; background: #f9f9f9; padding: 20px; }
-    h1 { color: #333; }
-    .contact-box {
-      background: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-      max-width: 500px;
-    }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
-</head>
-<body>
-  <h1>संपर्क करें</h1>
-  <div class="contact-box">
-    <p>अगर आपके पास कोई सुझाव या खबर है तो आप हमें ईमेल कर सकते हैं:</p>
-    <p><b>Email:</b> wakeupnews@example.com</p>
-    <p><b>फोन:</b> +91-9876543210</p>
-  </div>
-  <br>
-  <a href="index.html">← वापस होम पर जाएं</a>
-</body>
-</html>
+# Site settings
+title: "WakeUpNews"
+email: "wakeupnews@example.com"
+description: "WakeUpNews - Latest news in Hindi"
+baseurl: "" # अगर GitHub Pages root पर है तो खाली छोड़ें
+url: "https://padowadi.github.io/wakeupnews-site" # अपनी site URL डालें
+language: "hi"
+
+# Author info
+author:
+  name: "WakeUpNews"
+  email: "wakeupnews@example.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Permalink settings (short URL)
+permalink: /:year/:month/:day/:title.html
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "WakeUpNews"
+
+# Navigation / Social links
+social_links:
+  email: "wakeupnews@example.com"
+  phone: "+91-9876543210"
+
+# Optional: show future posts
+future: true
+
+# Optional: Exclude files/folders from build
+exclude:
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
