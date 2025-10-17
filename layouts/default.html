@@ -2,59 +2,45 @@
 <html lang="hi">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-
-  <!-- SEO & Social Meta -->
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:image" content="{{ page.thumbnail | default: '/assets/images/default-thumb.jpg' | relative_url }}">
-  <meta property="og:url" content="{{ page.url | relative_url }}">
-  <meta property="og:type" content="article">
-  <meta name="twitter:card" content="summary_large_image">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Favicon -->
+  <!-- ✅ Title & Description -->
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- ✅ SEO / Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ page.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ✅ Favicon -->
   <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
 
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.date | date: "%d %B %Y" }} | By {{ page.author }}</p>
+<body>
+  <header style="text-align:center; margin:20px 0;">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
   </header>
 
-  <!-- Thumbnail -->
-  <div style="text-align:center; margin:20px 0;">
-    <img src="{{ page.thumbnail | default: '/assets/images/default-thumb.jpg' | relative_url }}" 
-         alt="{{ page.title }}" style="max-width:100%; height:auto;">
-  </div>
-
-  <!-- YouTube Embed -->
-  {% if page.youtube %}
-  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:20px;">
-    <iframe src="{{ page.youtube | replace: 'watch?v=', 'embed/' }}" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            style="position:absolute; top:0; left:0; width:100%; height:100%;" allowfullscreen>
-    </iframe>
-  </div>
-  {% endif %}
-
-  <!-- Post Content -->
-  <main>
+  <!-- ✅ Page Content -->
+  <main style="padding: 0 15px; line-height:1.8;">
     {{ content }}
   </main>
 
-  <footer>
+  <!-- ✅ Footer -->
+  <footer style="text-align:center; margin-top:50px; padding:20px; border-top:1px solid #ccc;">
     <p>© 2025 WakeUpNews | सभी अधिकार सुरक्षित</p>
     <p>
       <a href="/contact.html">संपर्क करें</a> |
       <a href="/about.html">हमारे बारे में</a>
     </p>
   </footer>
-
 </body>
 </html>
