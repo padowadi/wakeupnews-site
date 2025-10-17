@@ -1,1 +1,56 @@
-Updated index.html with SEO and thumbnail meta settings
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WakeUpNews | सच्चाई जो सब छुपाते हैं</title>
+  <meta name="description" content="WakeUpNews पर पाएँ राजनीति, समाज, और अंतरराष्ट्रीय मामलों से जुड़ी सच्ची खबरें — बिना सेंसर के।" />
+
+  <!-- ✅ SEO Meta -->
+  <meta property="og:title" content="WakeUpNews | सच्चाई जो सब छुपाते हैं" />
+  <meta property="og:description" content="WakeUpNews पर पाएँ राजनीति, समाज, और अंतरराष्ट्रीय मामलों से जुड़ी सच्ची खबरें — बिना सेंसर के।" />
+  <meta property="og:image" content="/assets/images/default-thumb.jpg" />
+  <meta property="og:url" content="https://padowadi.github.io/wakeupnews-site/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+  <!-- ✅ Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>📰 WakeUpNews</h1>
+    <p>सच्चाई जो सब छुपाते हैं</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>ताज़ा ख़बरें</h2>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.thumbnail | default: '/assets/images/default-thumb.jpg' | relative_url }}" alt="{{ post.title }}" width="300" />
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.description }}</p>
+              <small>{{ post.date | date: "%d %B %Y" }}</small>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 WakeUpNews | सभी अधिकार सुरक्षित</p>
+    <p>
+      <a href="/contact.html">संपर्क करें</a> |
+      <a href="/about.html">हमारे बारे में</a>
+    </p>
+  </footer>
+</body>
+</html>
