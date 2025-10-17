@@ -6,9 +6,11 @@ description: "Asia Cup 2025 में भारत बनाम पाकिस�
 author: "WakeUpNews"
 tags: [WakeUpNews, SuryakumarYadav, SanaMir, AsiaCup2025, IndiaVsPakistan, CricketNews, Controversy, WomenT20]
 
-# Dual thumbnails
-website_thumbnail: "/assets/images/asia-cup-trophy-controversy-thumb.jpg"
-youtube_thumbnail: "https://img.youtube.com/vi/IEuXDxw3OQ0/maxresdefault.jpg"
+# Unified thumbnail for index.html
+thumbnail: /assets/images/asia-cup-trophy-controversy-thumb.jpg
+
+# YouTube specific thumbnail for video preview
+youtube_thumbnail: https://img.youtube.com/vi/IEuXDxw3OQ0/maxresdefault.jpg
 ---
 
 <!-- Website Thumbnail -->
