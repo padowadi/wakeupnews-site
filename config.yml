@@ -1,10 +1,10 @@
 # Site settings
 title: "WakeUpNews"
 description: "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews"
-baseurl: "/wakeupnews-site"  # अगर repository का नाम यही है
+baseurl: "/wakeupnews-site"
 url: "https://padowadi.github.io"
 
-# Structured permalink for SEO-friendly URLs
+# Permalink for SEO
 permalink: /:year/:month/:day/:title.html
 
 # Markdown parser
@@ -18,19 +18,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Images path / assets
-# अब सारी images 'assets/images/' में हैं (remove leading underscore)
-# किसी पोस्ट में refer करते समय इसी path का use करें
-assets_dir: "assets/images"
-
-# Optional: future posts visible immediately
-future: true
-
-# Recommended: force Jekyll to include all assets
+# Include assets
 include:
   - assets/images
 
-# Optional SEO defaults
+# Defaults for posts
 defaults:
   - scope:
       path: ""
@@ -38,4 +30,4 @@ defaults:
     values:
       layout: "post"
       author: "WakeUpNews"
-      website_thumbnail: "/assets/images/default-thumbnail.jpg"  # fallback
+      website_thumbnail: "/assets/images/default-thumbnail.jpg"
