@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "इसराइल से दोस्ताना भारत क्यों भरे हरजाना?"
 slug: israel-bharat
 date: 2025-09-25 10:00:00 +05:30
@@ -9,12 +10,18 @@ tags:
   - Israel
   - India
   - ForeignPolicy
-thumbnail: /assets/images/israel-bharat-thumb.jpg
-layout: post
+author: "WakeUpNews"
 description: "भारत और इसराइल की दोस्ताना नीति और उसका असर आम जनता पर"
-image: /assets/images/israel-bharat-thumbnail.jpg
+
+# Unified thumbnail for index.html
+thumbnail: /assets/images/israel-bharat-thumb.jpg
+
+# Optional: YouTube thumbnail if video link added later
+youtube_thumbnail: /assets/images/israel-bharat-thumb.jpg
+
+# Header image and caption for post page
 header:
-  image: /assets/images/israel-bharat-thumbnail.jpg
+  image: /assets/images/israel-bharat-thumb.jpg
   caption: "इसराइल-भारत रिपोर्ट"
 ---
 
