@@ -6,9 +6,11 @@ description: "लखनऊ के सहादतगंज में एक म�
 author: "WakeUpNews"
 tags: [WakeUpNews, BiharElections, RajnathSingh, Sahadatganj, UPPolitics, LoveStory, JusticeForLove, HumanityFirst, India]
 
-# Dual thumbnails
-website_thumbnail: "/assets/images/bihar-up-death-controversy-thumb.jpg"
-youtube_thumbnail: "https://img.youtube.com/vi/QwWj4tl1n60/maxresdefault.jpg"
+# Unified thumbnail for index.html
+thumbnail: /assets/images/bihar-up-death-controversy-thumb.jpg
+
+# YouTube specific thumbnail for video preview
+youtube_thumbnail: https://img.youtube.com/vi/QwWj4tl1n60/maxresdefault.jpg
 ---
 
 <!-- Website Thumbnail -->
