@@ -1,28 +1,31 @@
-# Site settings
+# ===========================
+# ✅ WakeUpNews Configuration
+# ===========================
+
 title: "WakeUpNews"
 description: "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews"
 baseurl: "/wakeupnews-site"
 url: "https://padowadi.github.io"
 
-# Permalink for SEO
+# ✅ SEO Friendly Permalink
 permalink: /:year/:month/:day/:title.html
 
-# Markdown parser
+# ✅ Markdown Parser
 markdown: kramdown
 
-# Theme
+# ✅ Theme
 theme: minima
 
-# Plugins
+# ✅ Plugins for SEO & Feed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Include assets
+# ✅ Include Folder
 include:
   - assets/images
 
-# Defaults for posts
+# ✅ Default Settings for All Posts
 defaults:
   - scope:
       path: ""
