@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://padowadi.github.io/wakeupnews-site/sitemap.xml
