@@ -11,9 +11,9 @@
   <!-- ✅ SEO / Open Graph -->
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:image" content="{{ page.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}">
+  <meta property="og:image" content="{{ page.thumbnail | default: site.website_thumbnail | relative_url }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- ✅ Favicon -->
@@ -31,6 +31,14 @@
 
   <!-- ✅ Page Content -->
   <main style="padding: 0 15px; line-height:1.8;">
+
+    <!-- ✅ Thumbnail Display -->
+    {% if page.thumbnail %}
+      <div style="text-align:center; margin-bottom:20px;">
+        <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" style="max-width:100%; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.2);">
+      </div>
+    {% endif %}
+
     {{ content }}
   </main>
 
