@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WakeUpNews | सच्चाई जो सब छुपाते हैं</title>
-  <meta name="description" content="WakeUpNews पर पाएँ राजनीति, समाज, और अंतरराष्ट्रीय मामलों से जुड़ी सच्ची खबरें — बिना सेंसर के।" />
-
-  <!-- ✅ SEO Meta -->
-  <meta property="og:title" content="WakeUpNews | सच्चाई जो सब छुपाते हैं" />
-  <meta property="og:description" content="WakeUpNews पर पाएँ राजनीति, समाज, और अंतरराष्ट्रीय मामलों से जुड़ी सच्ची खबरें — बिना सेंसर के।" />
-  <meta property="og:image" content="/assets/images/default-thumb.jpg" />
-  <meta property="og:url" content="https://padowadi.github.io/wakeupnews-site/" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ✅ SEO / Open Graph -->
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ site.website_thumbnail | relative_url }}">
+  <meta property="og:url" content="{{ site.url | default: site.github_site }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- ✅ Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
-  <!-- ✅ Styles -->
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
 <body>
-  <header>
-    <h1>📰 WakeUpNews</h1>
-    <p>सच्चाई जो सब छुपाते हैं</p>
+  <header style="text-align:center; margin:20px 0;">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
   </header>
 
-  <main>
-    <section>
-      <h2>ताज़ा ख़बरें</h2>
-      <ul>
-        {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.thumbnail | default: '/assets/images/default-thumb.jpg' | relative_url }}" alt="{{ post.title }}" width="300" />
-              <h3>{{ post.title }}</h3>
-              <p>{{ post.description }}</p>
-              <small>{{ post.date | date: "%d %B %Y" }}</small>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+  <main style="padding: 0 15px; line-height:1.8;">
+    <section class="posts" style="display:grid; gap:20px; max-width:1000px; margin:0 auto;">
+
+      {% for post in site.posts %}
+      <article class="post-card" style="display:flex; gap:16px; align-items:flex-start; background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        
+        <!-- ✅ Post Thumbnail -->
+        {% if post.thumbnail %}
+          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" style="width:150px; height:100px; object-fit:cover; border-radius:6px;">
+        {% endif %}
+
+        <!-- ✅ Post Content -->
+        <div class="post-content">
+          <h2 class="post-title" style="margin:0 0 8px 0; font-size:1.1rem;">
+            <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:#000;">{{ post.title }}</a>
+          </h2>
+          <p class="post-excerpt" style="margin:0 0 10px 0; color:#444; line-height:1.4;">
+            {{ post.description | truncate: 120 }}
+          </p>
+          <a class="read-more" href="{{ post.url | relative_url }}" style="color:#1a73e8;">Read more →</a>
+        </div>
+
+      </article>
+      {% endfor %}
+
     </section>
   </main>
 
-  <footer>
+  <footer style="text-align:center; margin-top:50px; padding:20px; border-top:1px solid #ccc;">
     <p>© 2025 WakeUpNews | सभी अधिकार सुरक्षित</p>
     <p>
       <a href="/contact.html">संपर्क करें</a> |
