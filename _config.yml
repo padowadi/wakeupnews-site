@@ -14,23 +14,9 @@ permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 
 # ✅ Theme
-theme: minima
+theme: jekyll-theme-minima
 
 # ✅ Plugins for SEO & Feed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# ✅ Include Folder
-include:
-  - assets/images
-
-# ✅ Default Settings for All Posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "WakeUpNews"
-      website_thumbnail: "/assets/images/default-thumbnail.jpg"
