@@ -3,58 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- ✅ SEO / Open Graph -->
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:image" content="{{ site.website_thumbnail | relative_url }}">
-  <meta property="og:url" content="{{ site.url | default: site.github_site }}">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- ✅ Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  <title>{{ site.title | default: "WakeUpNews" }}</title>
+  <meta name="description" content="{{ site.description | default: 'सच्ची खबर, बिना डर के' }}">
+
+  <!-- ✅ SEO Meta Tags -->
+  <meta property="og:title" content="{{ site.title | default: 'WakeUpNews' }}">
+  <meta property="og:description" content="{{ site.description | default: 'ताज़ा खबरें और एक्सक्लूसिव रिपोर्टिंग' }}">
+  <meta property="og:image" content="{{ site.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}">
+  <meta property="og:url" content="{{ site.url | default: site.github.url }}">
+  <meta property="og:type" content="website">
 
   <!-- ✅ CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
-  <header style="text-align:center; margin:20px 0;">
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
+  <header style="text-align:center; margin:30px 0;">
+    <h1>{{ site.title | default: "WakeUpNews" }}</h1>
+    <p>{{ site.description | default: "सच्ची खबर, बिना डर के" }}</p>
   </header>
 
-  <main style="padding: 0 15px; line-height:1.8;">
-    <section class="posts" style="display:grid; gap:20px; max-width:1000px; margin:0 auto;">
-
+  <!-- ✅ Posts Section -->
+  <main>
+    <div class="posts">
       {% for post in site.posts %}
-      <article class="post-card" style="display:flex; gap:16px; align-items:flex-start; background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-        
-        <!-- ✅ Post Thumbnail -->
+      <div class="post-card">
         {% if post.thumbnail %}
-          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" style="width:150px; height:100px; object-fit:cover; border-radius:6px;">
+          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
         {% endif %}
-
-        <!-- ✅ Post Content -->
         <div class="post-content">
-          <h2 class="post-title" style="margin:0 0 8px 0; font-size:1.1rem;">
-            <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:#000;">{{ post.title }}</a>
+          <h2 class="post-title">
+            <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:#111;">
+              {{ post.title }}
+            </a>
           </h2>
-          <p class="post-excerpt" style="margin:0 0 10px 0; color:#444; line-height:1.4;">
-            {{ post.description | truncate: 120 }}
-          </p>
-          <a class="read-more" href="{{ post.url | relative_url }}" style="color:#1a73e8;">Read more →</a>
+          <p class="post-excerpt">{{ post.description | truncate: 120 }}</p>
+          <a class="read-more" href="{{ post.url | relative_url }}">पूरा पढ़ें →</a>
         </div>
-
-      </article>
+      </div>
       {% endfor %}
-
-    </section>
+    </div>
   </main>
 
-  <footer style="text-align:center; margin-top:50px; padding:20px; border-top:1px solid #ccc;">
+  <!-- ✅ Footer -->
+  <footer style="text-align:center; margin-top:60px; padding:20px; border-top:1px solid #ccc;">
     <p>© 2025 WakeUpNews | सभी अधिकार सुरक्षित</p>
     <p>
       <a href="/contact.html">संपर्क करें</a> |
