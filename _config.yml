@@ -13,13 +13,14 @@ permalink: /:year/:month/:day/:title.html
 # ✅ Markdown Parser
 markdown: kramdown
 
-# ✅ Theme
-theme: jekyll-theme-minima
+# ✅ Theme (Fixed Build Error)
+remote_theme: jekyll/minima
 
 # ✅ Plugins for SEO & Feed
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # ✅ Extended Discussion (optional)
 extended_discussion: false
