@@ -2,7 +2,7 @@
 title: "दीपावली के केवल 4 दिन बचे हैं, लेकिन बिहार में चुनावी माहौल बन रहा है | WakeUpNews"
 date: 2025-10-16
 author: "WakeUpNews"
-categories: ["बिहार चुनाव", "राजनीति", "त्योहार"]
+categories: ["breaking-news"]
 tags: ["बिहार चुनाव", "दीपावली 2025", "चुनावी माहौल", "राजनीतिक पोस्टर", "WakeUpNews", "त्योहार और राजनीति", "लोकसभा चुनाव"]
 thumbnail: /assets/images/dipawali-controversy-thumb.jpg
 ---
