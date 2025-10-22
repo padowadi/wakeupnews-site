@@ -1,0 +1,109 @@
+---
+layout: none
+---
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+  }
+  .header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 25px;
+    padding: 20px;
+  }
+  .sidebar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    height: fit-content;
+  }
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #222;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+  }
+  .post-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding: 6px;
+  }
+  .post-item:hover {
+    background: #f0f8ff;
+    transform: scale(1.02);
+  }
+  .post-thumb {
+    width: 55px;
+    height: 40px;
+    border-radius: 5px;
+    object-fit: cover;
+    background: #ddd;
+  }
+  .post-info {
+    flex: 1;
+  }
+  .post-info a {
+    display: block;
+    color: #0077cc;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .post-info a:hover {
+    text-decoration: underline;
+  }
+  .post-info small {
+    color: #666;
+    font-size: 12px;
+  }
+  .content {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+</style>
+
+<div class="header">
+  <h1>WakeUpNews - Stay Updated, Stay Ahead</h1>
+</div>
+
+<div class="main">
+  <!-- 🔹 Sidebar (Google Sites Style) -->
+  <div class="sidebar">
+    <h2>📰 Latest Headlines</h2>
+    {% for post in site.posts %}
+    <div class="post-item">
+      {% if post.thumbnail %}
+      <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+      {% else %}
+      <img class="post-thumb" src="/assets/images/default-thumb.jpg" alt="No Image">
+      {% endif %}
+      <div class="post-info">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>{{ post.date | date: "%d %b %Y" }}</small>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- 🔹 Main Post Area -->
+  <div class="content">
+    {{ content }}
+  </div>
+</div>
