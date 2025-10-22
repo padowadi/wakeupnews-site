@@ -4,12 +4,14 @@ title: "आज के टॉप 4 हेडलाइंस | पाकिस्�
 date: 2025-10-18 10:00:00 +0530
 uploadDate: "2025-10-18T10:00:00+05:30"
 author: "WakeUpNews"
+type: "Article"
+schema_type: "NewsArticle"
 categories: ["Headlines", "India", "World"]
-tags: [पाकिस्तान, अफगानिस्तान, बिहार चुनाव, बीजेपी, कांग्रेस]
+tags: [pakistan, afghanistan, bihar-election, bjp, congress]
 description: "आज के टॉप 4 हेडलाइंस देखें: पाकिस्तान-अफगानिस्तान में जंग, अफगान विदेश मंत्री भारत में, बिहार चुनाव का नामांकन अंतिम दिन और राजनीतिक खींचातानी।"
 thumbnail: /assets/images/todays-top4-headlines.jpg
 
-# Social Media & Website Links
+# ✅ Social Media & Website Links
 social:
   x: "https://x.com/zakirhu54134646?t=iIeMRg_x1MhPQvAlNyiEUA&s=09"
   facebook: "https://www.facebook.com/share/1FhVs6djFE/"
@@ -18,18 +20,34 @@ social:
   google_site: "https://sites.google.com/view/wakeupnews2020/home"
   github_site: "https://padowadi.github.io/wakeupnews-site/"
 
-# SEO / Open Graph
+# ✅ SEO / Open Graph Meta
 og:
   title: "{{ page.title }}"
   description: "{{ page.description }}"
   image: "{{ page.thumbnail | relative_url }}"
   url: "{{ page.url | absolute_url }}"
   type: "article"
----
-## आज के टॉप 4 हेडलाइंस:
 
-1. पाकिस्तान अफगानिस्तान में जंग  
+# ✅ Structured Data for Google (JSON-LD)
+seo_schema:
+  "@context": "https://schema.org"
+  "@type": "NewsArticle"
+  headline: "{{ page.title }}"
+  description: "{{ page.description }}"
+  author: "{{ page.author }}"
+  datePublished: "{{ page.uploadDate }}"
+  image: "{{ page.thumbnail | absolute_url }}"
+  publisher:
+    "@type": "Organization"
+    name: "WakeUpNews"
+    logo:
+      "@type": "ImageObject"
+      url: "https://padowadi.github.io/wakeupnews-site/assets/images/wakeupnews-logo.png"
+---
+## आज की प्रमुख 5 खबरें:
+
+1. पाकिस्तान-अफगानिस्तान में जंग  
 2. अफगानिस्तान के विदेश मंत्री भारत में  
-3. बिहार चुनाव की नामांकन का आज आखिरी दिन  
+3. बिहार चुनाव का नामांकन आज अंतिम दिन  
 4. बीजेपी और कांग्रेस दोनों पार्टियों में खींचातानी  
-5. आज की प्रमुख खबरें अब WakeUpNews पर।
+5. आज की प्रमुख खबरें अब WakeUpNews पर
