@@ -5,7 +5,7 @@ date: "2025-10-23 10:00:00 +05:30"
 uploadDate: "2025-10-23T10:00:00+05:30"
 author: "WakeUpNews"
 categories: ["Politics", "Bihar Election"]
-image: "/assets/images/tejaswini-yadav-bihar-election-thumb.jpg
+thumbnail: /assets/images/tejaswini-yadav-bihar-election-thumb.jpg
 description: "बिहार विधानसभा चुनाव में तेजस्विनी यादव का बड़ा वादा – कहा अगर हमारी सरकार बनी तो राज्य के सभी संविदा कर्मचारियों को स्थायी नौकरी दी जाएगी। राहुल गांधी समेत INDIA गठबंधन के नेताओं ने किया समर्थन।"
 
 # ✅ Social Media & Website Links
