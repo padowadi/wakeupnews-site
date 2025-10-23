@@ -7,6 +7,38 @@ author: "WakeUpNews"
 categories: ["Politics", "Bihar Election 2025"]
 image: "/assets/images/tejaswini-yadav-bihar-election-thumb.jpg"
 description: "बिहार विधानसभा चुनाव में तेजस्विनी यादव का बड़ा वादा – कहा अगर हमारी सरकार बनी तो राज्य के सभी संविदा कर्मचारियों को स्थायी नौकरी दी जाएगी। राहुल गांधी समेत INDIA गठबंधन के नेताओं ने किया समर्थन।"
+
+# ✅ Social Media & Website Links
+social:
+  x: "https://x.com/WakeUpNews"
+  facebook: "https://www.facebook.com/WakeUpNews"
+  instagram: "https://instagram.com/WakeUpNews"
+  youtube: "https://www.youtube.com/@WakeUpNews"
+  telegram: "https://t.me/WakeUpNews"
+
+# ✅ SEO / Open Graph Meta
+og:
+  title: "{{ page.title }}"
+  description: "{{ page.description }}"
+  image: "{{ page.image | relative_url }}"
+  url: "{{ page.url | absolute_url }}"
+  type: "article"
+
+# ✅ Structured Data for Google (JSON-LD)
+seo_schema:
+  "@context": "https://schema.org"
+  "@type": "NewsArticle"
+  headline: "{{ page.title }}"
+  description: "{{ page.description }}"
+  author: "{{ page.author }}"
+  datePublished: "{{ page.uploadDate }}"
+  image: "{{ page.image | absolute_url }}"
+  publisher:
+    "@type": "Organization"
+    name: "WakeUpNews"
+    logo:
+      "@type": "ImageObject"
+      url: "https://padowadi.github.io/wakeupnews-site/assets/images/wakeupnews-logo.png"
 ---
 
 बिहार विधानसभा चुनाव के बीच तेजस्विनी यादव ने आज एक बड़ा ऐलान किया है।  
