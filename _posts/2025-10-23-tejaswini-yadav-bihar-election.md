@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "तेजस्विनी यादव का बड़ा ऐलान: सरकार बनी तो सभी संविदा कर्मियों को मिलेगी स्थायी नौकरी"
-date: 2025-10-23 10:00:00 +0530
+date: "2025-10-23 10:00:00 +05:30"
 uploadDate: "2025-10-23T10:00:00+05:30"
 author: "WakeUpNews"
 categories: ["Politics", "Bihar Election"]
