@@ -7,24 +7,30 @@ description: "WakeUpNews: सच्ची खबर, बिना डर के 
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>{{ site.title | default: "WakeUpNews" }}</title>
-  <meta name="description" content="{{ site.description | default: 'सच्ची खबर, बिना डर के' }}">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
 
   <!-- ✅ SEO Meta Tags -->
-  <meta property="og:title" content="{{ site.title | default: 'WakeUpNews' }}">
-  <meta property="og:description" content="{{ site.description | default: 'ताज़ा खबरें और एक्सक्लूसिव रिपोर्टिंग' }}">
-  <meta property="og:image" content="{{ site.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}">
-  <meta property="og:url" content="{{ site.url | default: site.github.url }}">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | default: site.title }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description }}" />
+  <meta property="og:image" content="{{ site.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}" />
+  <meta property="og:url" content="{{ site.url | append: page.url }}" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+  <meta name="twitter:image" content="{{ site.website_thumbnail | default: '/assets/images/default-thumbnail.jpg' | relative_url }}" />
 
   <!-- ✅ CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
 
 <body>
+  <!-- ✅ Header -->
   <header style="text-align:center; margin:30px 0;">
     <h1>{{ site.title | default: "WakeUpNews" }}</h1>
     <p>{{ site.description | default: "सच्ची खबर, बिना डर के" }}</p>
@@ -32,20 +38,20 @@ description: "WakeUpNews: सच्ची खबर, बिना डर के 
 
   <!-- ✅ Posts Section -->
   <main>
-    <div class="posts">
+    <div class="posts" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
       {% for post in site.posts %}
-      <div class="post-card">
+      <div class="post-card" style="width:320px; border:1px solid #ddd; border-radius:12px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
         {% if post.thumbnail %}
-          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" style="width:100%; height:180px; object-fit:cover;" />
         {% endif %}
-        <div class="post-content">
-          <h2 class="post-title">
+        <div class="post-content" style="padding:15px;">
+          <h2 class="post-title" style="font-size:1.2rem; margin-bottom:10px;">
             <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:#111;">
               {{ post.title }}
             </a>
           </h2>
-          <p class="post-excerpt">{{ post.description | truncate: 120 }}</p>
-          <a class="read-more" href="{{ post.url | relative_url }}">पूरा पढ़ें →</a>
+          <p class="post-excerpt" style="color:#444; font-size:0.95rem;">{{ post.description | truncate: 120 }}</p>
+          <a class="read-more" href="{{ post.url | relative_url }}" style="color:#e63946; font-weight:bold;">पूरा पढ़ें →</a>
         </div>
       </div>
       {% endfor %}
@@ -57,7 +63,8 @@ description: "WakeUpNews: सच्ची खबर, बिना डर के 
     <p>© 2025 WakeUpNews | सभी अधिकार सुरक्षित</p>
     <p>
       <a href="/contact.html">संपर्क करें</a> |
-      <a href="/about.html">हमारे बारे में</a>
+      <a href="/about.html">हमारे बारे में</a> |
+      <a href="/feed.xml">RSS फ़ीड</a>
     </p>
   </footer>
 </body>
