@@ -1,0 +1,16 @@
+{
+  "name": "WakeUpNews",
+  "short_name": "WakeUpNews",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "सच्चाई को सामने लाने वाली आवाज़ – WakeUpNews",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
