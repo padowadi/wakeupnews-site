@@ -7,7 +7,7 @@ author: "WakeUpNews"
 categories: ["Entertainment", "BiggBoss19", "TVShows"]
 thumbnail: /assets/images/Big-boss19-thumb.jpg
 description: "Bigg Boss 19 में अशनूर, अभिषेक और कप्तान ने घर के नियमों का उल्लंघन किया। बशीर और स्नेहल बाहर — बाकी सभी सदस्य नॉमिनेट! घर में बढ़ा तनाव और सोशल मीडिया पर मचा बवाल।"
-video_shorts: "https://youtube.com/shorts/XXXXXXXXXXX"
+video_shorts: "https://youtube.com/shorts/LJwNjZrfUfw?si=ZG19uXOdlNB-r4Pd"
 
 social:
   x: "https://x.com/WakeUpNews"
@@ -42,10 +42,10 @@ seo_schema:
 ### 🎬 40 सेकंड वीडियो शॉर्ट
 
 देखें YouTube शॉर्ट्स:  
-[Watch on YouTube](https://youtube.com/shorts/XXXXXXXXXXX)
+[Watch on YouTube](https://youtube.com/shorts/LJwNjZrfUfw?si=ZG19uXOdlNB-r4Pd)
 
 <iframe width="100%" height="315"
-src="https://www.youtube.com/embed/XXXXXXXXXXX?autoplay=0"
+src="https://www.youtube.com/embed/LJwNjZrfUfw?autoplay=0"
 title="Bigg Boss 19 Nomination Drama" frameborder="0" allowfullscreen></iframe>
 
 ---
