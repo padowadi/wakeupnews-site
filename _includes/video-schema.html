@@ -1,0 +1,22 @@
+{% if page.video_shorts %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "thumbnailUrl": "{{ page.thumbnail | absolute_url }}",
+  "uploadDate": "{{ page.uploadDate }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ page.video_shorts | replace: 'https://youtube.com/shorts/', '' | replace: 'https://youtu.be/', '' | split:'?' | first }}",
+  "contentUrl": "{{ page.video_shorts }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "WakeUpNews",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/assets/images/wakeupnews-logo.png' | absolute_url }}"
+    }
+  }
+}
+</script>
+{% endif %}
