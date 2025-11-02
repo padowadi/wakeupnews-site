@@ -5,7 +5,7 @@ date: "2025-11-01 18:30:00 +05:30"
 uploadDate: "2025-11-28T18:30:00+05:30"
 author: "WakeUpNews"
 categories: ["Entertainment", "BiggBoss19", "TVShows"]
-thumbnail: /assets/images/Big-boss19-thumb.jpg
+thumbnail: /assets/images/top-5-breaking-stories-thumb.jpg
 description: "Bigg Boss 19 में अशनूर, अभिषेक और कप्तान ने घर के नियमों का उल्लंघन किया। बशीर और स्नेहल बाहर — बाकी सभी सदस्य नॉमिनेट! घर में बढ़ा तनाव और सोशल मीडिया पर मचा बवाल।"
 video_shorts: "https://youtube.com/shorts/LJwNjZrfUfw?si=ZG19uXOdlNB-r4Pd"
 
