@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Bigg Boss 19 में बड़ा धमाका — बशीर और स्नेहल बाहर, अशनूर और अभिषेक के कारण पूरे घर को नॉमिनेशन!"
-date: "2025-10-28 18:30:00 +05:30"
-uploadDate: "2025-10-28T18:30:00+05:30"
+date: "2025-11-01 18:30:00 +05:30"
+uploadDate: "2025-11-28T18:30:00+05:30"
 author: "WakeUpNews"
 categories: ["Entertainment", "BiggBoss19", "TVShows"]
 thumbnail: /assets/images/Big-boss19-thumb.jpg
