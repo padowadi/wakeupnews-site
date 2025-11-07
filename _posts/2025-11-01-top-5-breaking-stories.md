@@ -38,9 +38,8 @@ social:
 [Watch on YouTube](https://youtube.com/shorts/SSEzPEt1YUs?si=dDxUqN24CsqU1nJr)
 
 <iframe width="100%" height="315"
-src="https://www.youtube.com/embed/SSEzPEt1YUs?autoplay=0"
-title="Top 5 Breaking Stories - WakeUpNews" frameborder="0" allowfullscreen></iframe>
-
+src="https://www.youtube.com/embed/Cgla_eICDwc?autoplay=1"
+title="YouTube Shorts - WakeUpNews" frameborder="0" allow="autoplay" allowfullscreen></iframe>
 ---
 
 ## 🗓️ इस हफ्ते की Top 5 Breaking Stories | WakeUpNews
