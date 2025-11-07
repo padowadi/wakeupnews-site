@@ -37,6 +37,11 @@ social:
 
 [Watch on YouTube](https://youtube.com/shorts/Cgla_eICDwc?si=UOvx0Z6hJCWhx8K5)
 
+<!-- YouTube Thumbnail Preview -->
+<a href="{{ page.video_shorts }}" target="_blank">
+  <img src="{{ page.video_thumbnail }}" alt="Watch on YouTube" style="width:100%; max-width:500px; margin-bottom:10px;"/>
+</a>
+
 <iframe width="100%" height="315"
 src="https://www.youtube.com/embed/Cgla_eICDwc?autoplay=0&playlist=Cgla_eICDwc&loop=1"
 title="Top 3 Breaking Stories - WakeUpNews" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
