@@ -6,9 +6,9 @@
   "name": "{{ page.title | escape }}",
   "description": "{{ page.description | escape }}",
   "thumbnailUrl": "{{ page.thumbnail | absolute_url }}",
-  "uploadDate": "{{ page.uploadDate }}",
-  "embedUrl": "https://www.youtube.com/embed/{{ page.video_shorts | replace: 'https://youtube.com/shorts/', '' | replace: 'https://youtu.be/', '' | split:'?' | first }}",
+  "uploadDate": {{ page.uploadDate | jsonify }},
   "contentUrl": "{{ page.video_shorts }}",
+  "embedUrl": "{{ page.video_shorts }}",
   "publisher": {
     "@type": "Organization",
     "name": "WakeUpNews",
