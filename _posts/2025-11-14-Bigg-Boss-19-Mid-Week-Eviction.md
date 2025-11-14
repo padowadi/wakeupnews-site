@@ -5,7 +5,7 @@ date: "2025-11-14 10:00:00 +05:30"
 uploadDate: "2025-11-14T10:00:00+05:30"
 author: "WakeUpNews"
 categories: ["News", "BiggBoss19", "Entertainment"]
-thumbnail: /assets/images/Bigg-Boss-19-Mid-Week-Eviction-thumb.jpg
+thumbnail: "{{ '/assets/images/Bigg-Boss-19-Mid-Week-Eviction-thumb.jpg' | relative_url }}"
 description: "Bigg Boss 19 Mid Week Eviction, Gaurav Khanna Drama और अंतरराष्ट्रीय न्यूज़ — इस हफ्ते की टॉप 5 ब्रेकिंग न्यूज WakeUpNews स्टाइल में।"
 video_shorts: "https://youtube.com/shorts/8VF1id9yz8Y?feature=share"
 
@@ -41,7 +41,7 @@ seo_schema:
 ### 🎬 60 सेकंड वीडियो शॉर्ट
 
 देखें YouTube शॉर्ट्स:  
-[Watch on YouTube](https://youtube.com/shorts/8VF1id9yz8Y?feature=share)
+[Watch on YouTube]({{ page.video_shorts }})
 
 <iframe width="100%" height="315"
 src="https://www.youtube.com/embed/8VF1id9yz8Y?autoplay=0"
