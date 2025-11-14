@@ -3,7 +3,7 @@ layout: post
 title: "इस हफ्ते की Top 5 Breaking News | WakeUpNews"
 date: "2025-11-14 10:00:00 +05:30"
 uploadDate: "2025-11-14T10:00:00+05:30"
-author: "WakeUpNews Team"
+author: "WakeUpNews"
 categories: ["News", "BiggBoss19", "Entertainment"]
 thumbnail: "/assets/images/Bigg-Boss-19-Mid-Week-Eviction-thumb.jpg"
 description: "Bigg Boss 19 Mid Week Eviction, Gaurav Khanna Drama और अंतरराष्ट्रीय न्यूज़ — इस हफ्ते की टॉप 5 ब्रेकिंग न्यूज WakeUpNews स्टाइल में।"
