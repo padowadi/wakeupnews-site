@@ -5,7 +5,7 @@ date: "2025-11-21 10:00:00 +05:30"
 uploadDate: "2025-11-21T10:00:00+05:30"
 author: "WakeUpNews"
 categories: ["News", "BiggBoss19", "UP", "Bihar"]
-thumbnail: /assets/images/top-3-news-thumb.jpg
+thumbnail: /assets/images/is-ki-top-3-news-thumb.jpg
 description: "Bigg Boss 19 TRP टॉप कंटेस्टेंट्स, बिहार चुनाव में NDA की बड़ी जीत और UP SIR विवाद — इस हफ्ते की टॉप 3 ब्रेकिंग न्यूज WakeUpNews स्टाइल में।"
 video_shorts: "https://youtube.com/shorts/8VF1id9yz8Y?feature=share"
 
