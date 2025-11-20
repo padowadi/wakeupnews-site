@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "इस हफ्ते की Top 3 Breaking News | WakeUpNews"
+title: "इस हफ्ते की Top 5 Breaking News | WakeUpNews"
 date: "2025-11-21 10:00:00 +05:30"
 uploadDate: "2025-11-21T10:00:00+05:30"
 author: "WakeUpNews"
-categories: ["News", "BiggBoss19", "UP", "Bihar"]
-thumbnail: /assets/images/is-ki-top-3-news-thumb.jpg
-description: "Bigg Boss 19 TRP टॉप कंटेस्टेंट्स, बिहार चुनाव में NDA की बड़ी जीत और UP SIR विवाद — इस हफ्ते की टॉप 3 ब्रेकिंग न्यूज WakeUpNews स्टाइल में।"
+categories: ["News", "BiggBoss19", "Entertainment"]
+thumbnail: /assets/images/is-weak-ki-top-3-news-thumb.jpg
+description: "Bigg Boss 19 Mid Week Eviction, Gaurav Khanna Drama और अंतरराष्ट्रीय न्यूज़ — इस हफ्ते की टॉप 5 ब्रेकिंग न्यूज WakeUpNews स्टाइल में।"
 video_shorts: "https://youtube.com/shorts/8VF1id9yz8Y?feature=share"
 
 social:
@@ -38,19 +38,21 @@ seo_schema:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
 ---
+### 🎬 60 सेकंड वीडियो शॉर्ट
 
-
----
-
-🎬 60 सेकंड वीडियो शॉर्ट
-
-देखें YouTube शॉर्ट्स:
+देखें YouTube शॉर्ट्स:  
 [Watch on YouTube]({{ page.video_shorts }})
 
-<iframe width="100%" height="315"
-src="https://www.youtube.com/embed/8VF1id9yz8Y?autoplay=0"
-title="Top 3 Breaking News | WakeUpNews" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="500" 
+src="https://www.youtube.com/embed/0T-JW8OS7ow" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+
 ---
+
 
 ## 1️⃣ Bigg Boss 19 – TRP पर राज करने वाले Top कंटेस्टेंट्स
 
@@ -102,11 +104,14 @@ UP में SIR (Special Identity Review) प्रक्रिया शुर
 
 ---
 
-<!-- ⭐ Like Button --><div style="margin-top:20px;">
+<!-- ⭐ Like Button -->
+<div style="margin-top:20px;">
   <button class="like-btn" data-post="{{ page.url | slugify }}" style="cursor:pointer; padding:6px 15px; background:#e63946; color:#fff; border:none; border-radius:5px;">
     👍 Like <span class="like-count">0</span>
   </button>
-</div><script>
+</div>
+
+<script>
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector(".like-btn");
   const postKey = btn.dataset.post;
@@ -120,7 +125,10 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.disabled = true;
   });
 });
-</script><!-- 💬 Comment Section (Disqus) --><div id="disqus_thread" style="margin-top:30px;"></div>
+</script>
+
+<!-- 💬 Comment Section (Disqus) -->
+<div id="disqus_thread" style="margin-top:30px;"></div>
 <script>
 var disqus_config = function () {
 this.page.url = "{{ site.url }}{{ page.url }}";
@@ -133,20 +141,20 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
----
+<noscript>कृपया Disqus को एक्टिवेट करें।</noscript>
 
-🔗 Share This Post
-
+<!-- 🔗 Share Buttons -->
 <div style="margin-top:20px;">
   <a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}" target="_blank" style="margin-right:10px;">📲 Telegram</a>
   <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}" target="_blank" style="margin-right:10px;">📲 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank" style="margin-right:10px;">🐦 Twitter</a>
 </div>
+
 ---
 
-📲 Follow WakeUpNews
-👉 YouTube
-👉 Instagram
-👉 Twitter
-👉 Facebook
-👉 Telegram
+📲 Follow WakeUpNews  
+👉 [YouTube](https://youtube.com/@WakeUpNews)  
+👉 [Instagram](https://instagram.com/WakeUpNews)  
+👉 [Twitter](https://x.com/WakeUpNews)  
+👉 [Facebook](https://facebook.com/WakeUpNews)  
+👉 [Telegram](https://t.me/WakeUpNews)
