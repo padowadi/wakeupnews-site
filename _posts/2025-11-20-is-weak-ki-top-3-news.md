@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "इस हफ्ते की Top 5 Breaking News | WakeUpNews"
-date: "2025-11-21 10:00:00 +05:30"
-uploadDate: "2025-11-21T10:00:00+05:30"
+date: "2025-11-20 10:00:00 +05:30"
+uploadDate: "2025-11-20T10:00:00+05:30"
 author: "WakeUpNews"
 categories: ["News", "BiggBoss19", "Entertainment"]
 thumbnail: /assets/images/is-weak-ki-top-3-news-thumb.jpg
