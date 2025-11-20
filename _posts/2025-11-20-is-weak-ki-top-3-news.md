@@ -57,8 +57,8 @@ allowfullscreen></iframe>
 Bigg Boss 19 में इस हफ्ते कोई वाइल्ड-कार्ड नहीं आया, कोई एलिमिनेशन नहीं हुआ।  
 लेकिन TRP में टॉप पर रहने वाले 5 कंटेस्टेंट्स ये रहे:
 
-- *Abhishek Bajaj* — सबसे ज्यादा फैनबेस  
-- *Baseer Ali* — लगातार दूसरे नंबर पर  
+- *tanya Bhatiya* — सबसे ज्यादा फैनबेस  
+- *konika sadanan* — लगातार दूसरे नंबर पर  
 - *Gaurav Khanna* — हाई TRP + हाई पेमेंट  
 - *Amaal Mallik* — सोशल मीडिया पर बवाल  
 - *Farhana Bhatt* — हर एपिसोड में चर्चा  
