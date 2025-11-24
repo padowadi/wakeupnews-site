@@ -35,31 +35,21 @@ seo_schema:
     logo:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
-
-video_schema:
-  "@context": "https://schema.org"
-  "@type": "VideoObject"
-  name: "Samm Renaissance Fashion Calendar Launch 2026"
-  description: "Shehnaaz Gill के साथ Lucknow में Special Award Show — हर किसी के पास मंच पर चमकने का मौका!"
-  thumbnailUrl: "https://img.youtube.com/vi/JSPkbtHZnag/maxresdefault.jpg"
-  uploadDate: "2025-11-24"
-  contentUrl: "https://www.youtube.com/watch?v=JSPkbtHZnag"
-  embedUrl: "https://www.youtube.com/embed/JSPkbtHZnag"
-  duration: "PT0M45S"
 ---
-### 🎬 YouTube Shorts
+### 🎬 60 सेकंड वीडियो शॉर्ट
 
 देखें YouTube शॉर्ट्स:  
 [Watch on YouTube]({{ page.video_shorts }})
 
-<!-- YouTube Embed -->
+<!-- ✅ Correct Embed for this Shorts -->
 <iframe width="100%" height="500" 
 src="https://www.youtube.com/embed/JSPkbtHZnag" 
 title="YouTube Shorts" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
-<!-- 📝 Article Content -->
+---
+
 <h2>🎤 तैयार हो जाइए… क्योंकि इस बार मंच पर चमकने का मौका… हर किसी के पास है!</h2>
 
 <p><b>(0:05–0:12)</b><br>
@@ -77,7 +67,7 @@ allowfullscreen></iframe>
 Samm Renaissance Fashion Calendar Launch 2026 – 23 December.<br>
 इसे मिस मत करना!”</p>
 
-<!-- Like Button -->
+<!-- ⭐ Like Button -->
 <div style="margin-top:20px;">
   <button class="like-btn" data-post="{{ page.url | slugify }}" style="cursor:pointer; padding:6px 15px; background:#e63946; color:#fff; border:none; border-radius:5px;">
     👍 Like <span class="like-count">0</span>
@@ -102,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<!-- Disqus Comment Section -->
+<!-- 💬 Disqus Comment Section -->
 <div id="disqus_thread" style="margin-top:30px;"></div>
 <script>
 var disqus_config = function () {
@@ -118,14 +108,14 @@ var disqus_config = function () {
 </script>
 <noscript>कृपया Disqus को एक्टिवेट करें।</noscript>
 
-<!-- Share Buttons -->
+<!-- 🔗 Share Buttons -->
 <div style="margin-top:25px;">
   <a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}" target="_blank">📲 Telegram</a>
   <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}" target="_blank" style="margin-left:10px;">📲 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank" style="margin-left:10px;">🐦 Twitter</a>
 </div>
 
-<!-- Follow WakeUpNews -->
+<!-- 📲 Follow WakeUpNews -->
 <p style="margin-top:25px;">
 📲 Follow WakeUpNews<br><br>
 👉 <a href="https://youtube.com/@WakeUpNews">YouTube</a><br>
