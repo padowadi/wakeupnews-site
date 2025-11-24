@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Samm Renaissance Fashion Calendar Launch 2026 | Shehnaaz Gill Special Event"
+date: "2025-11-24 10:00:00 +05:30"
+uploadDate: "2025-11-24T10:00:00+05:30"
 description: "Lucknow में होने जा रहा है Shehnaaz Gill के साथ एक स्पेशल अवॉर्ड शो — जहाँ हर किसी को मंच पर चमकने का मौका मिलेगा!"
 author: "WakeUpNews"
 thumbnail: "assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg
@@ -47,11 +49,6 @@ video_schema:
   embedUrl: "https://www.youtube.com/embed/JSPkbtHZnag"
   duration: "PT0M45S"
 ---
-<!-- 🌟 Article Thumbnail -->
-<div style="text-align:center; margin-top:20px;">
-  <img src="assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg" alt="{{ page.title }}" style="width:100%; max-width:700px; border-radius:12px;">
-</div>
-
 <!-- 🎬 YouTube Shorts Embed -->
 <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-top:20px; border-radius:12px;">
   <iframe 
