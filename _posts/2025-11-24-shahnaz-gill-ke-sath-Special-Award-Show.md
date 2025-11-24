@@ -3,7 +3,7 @@ layout: post
 title: "Samm Renaissance Fashion Calendar Launch 2026 | Shehnaaz Gill Special Event"
 description: "Lucknow में होने जा रहा है Shehnaaz Gill के साथ एक स्पेशल अवॉर्ड शो — जहाँ हर किसी को मंच पर चमकने का मौका मिलेगा!"
 author: "WakeUpNews"
-thumbnail: "assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg"
+thumbnail: "/assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg"
 uploadDate: "2025-11-24"
 video_shorts: "https://youtube.com/shorts/JSPkbtHZnag"
 
@@ -36,6 +36,7 @@ seo_schema:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
 ---
+
 ### 🎬 60 सेकंड वीडियो शॉर्ट
 
 देखें YouTube शॉर्ट्स:  
@@ -50,6 +51,7 @@ allowfullscreen></iframe>
 
 ---
 
+<!-- 📝 Article Content -->
 <h2>🎤 तैयार हो जाइए… क्योंकि इस बार मंच पर चमकने का मौका… हर किसी के पास है!</h2>
 
 <p><b>(0:05–0:12)</b><br>
@@ -67,7 +69,7 @@ allowfullscreen></iframe>
 Samm Renaissance Fashion Calendar Launch 2026 – 23 December.<br>
 इसे मिस मत करना!”</p>
 
-<!-- ⭐ Like Button -->
+<!-- 👍 Like Button -->
 <div style="margin-top:20px;">
   <button class="like-btn" data-post="{{ page.url | slugify }}" style="cursor:pointer; padding:6px 15px; background:#e63946; color:#fff; border:none; border-radius:5px;">
     👍 Like <span class="like-count">0</span>
@@ -78,11 +80,9 @@ Samm Renaissance Fashion Calendar Launch 2026 – 23 December.<br>
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector(".like-btn");
   if (!btn) return;
-
   const postKey = btn.dataset.post;
   let likes = localStorage.getItem(postKey) || 0;
   btn.querySelector(".like-count").innerText = likes;
-
   btn.addEventListener("click", () => {
     likes = parseInt(likes) + 1;
     localStorage.setItem(postKey, likes);
