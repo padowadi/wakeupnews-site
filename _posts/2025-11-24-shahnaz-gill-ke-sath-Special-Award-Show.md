@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Samm Renaissance Fashion Calendar Launch 2026 | Shehnaaz Gill Special Event"
-date: "2025-11-24 10:00:00 +05:30"
-uploadDate: "2025-11-24T10:00:00+05:30"
-author: "WakeUpNews"
-categories: ["Events", "Fashion", "ShehnaazGill"]
-thumbnail: /assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg
 description: "Lucknow में होने जा रहा है Shehnaaz Gill के साथ एक स्पेशल अवॉर्ड शो — जहाँ हर किसी को मंच पर चमकने का मौका मिलेगा!"
-video_shorts: "https://youtube.com/shorts/JSPkbtHZnag?si=P6U-6GW_UR9T7Qd4"
+author: "WakeUpNews"
+thumbnail: "assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg"
+uploadDate: "2025-11-24"
+video_shorts: "https://youtube.com/shorts/JSPkbtHZnag"
 
 social:
   x: "https://x.com/WakeUpNews"
@@ -37,19 +35,34 @@ seo_schema:
     logo:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
+
+video_schema:
+  "@context": "https://schema.org"
+  "@type": "VideoObject"
+  name: "Samm Renaissance Fashion Calendar Launch 2026"
+  description: "Shehnaaz Gill के साथ Lucknow में Special Award Show — हर किसी के पास मंच पर चमकने का मौका!"
+  thumbnailUrl: "https://img.youtube.com/vi/JSPkbtHZnag/maxresdefault.jpg"
+  uploadDate: "2025-11-24"
+  contentUrl: "https://www.youtube.com/watch?v=JSPkbtHZnag"
+  embedUrl: "https://www.youtube.com/embed/JSPkbtHZnag"
+  duration: "PT0M45S"
 ---
-### 🎬 45–60 सेकंड वीडियो शॉर्ट
+<!-- 🌟 Article Thumbnail -->
+<div style="text-align:center; margin-top:20px;">
+  <img src="assets/images/shahnaz-gill-ke-sath-Special-Award-Show-thumb.jpg" alt="{{ page.title }}" style="width:100%; max-width:700px; border-radius:12px;">
+</div>
 
-देखें YouTube शॉर्ट्स:  
-[Watch on YouTube]({{ page.video_shorts }})
+<!-- 🎬 YouTube Shorts Embed -->
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-top:20px; border-radius:12px;">
+  <iframe 
+    src="https://www.youtube.com/embed/JSPkbtHZnag" 
+    frameborder="0" 
+    allowfullscreen 
+    style="position:absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
 
-<!-- ✅ Correct Embed for this Shorts -->
-<iframe width="100%" height="500" 
-src="https://www.youtube.com/embed/JSPkbtHZnag" 
-title="YouTube Shorts" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
+<!-- 📝 Article Content -->
 <h2>🎤 तैयार हो जाइए… क्योंकि इस बार मंच पर चमकने का मौका… हर किसी के पास है!</h2>
 
 <p><b>(0:05–0:12)</b><br>
@@ -109,17 +122,18 @@ var disqus_config = function () {
 <noscript>कृपया Disqus को एक्टिवेट करें।</noscript>
 
 <!-- 🔗 Share Buttons -->
-<div style="margin-top:20px;">
+<div style="margin-top:25px;">
   <a href="https://t.me/share/url?url={{ site.url }}{{ page.url }}" target="_blank">📲 Telegram</a>
   <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}" target="_blank" style="margin-left:10px;">📲 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank" style="margin-left:10px;">🐦 Twitter</a>
 </div>
 
----
-
-📲 Follow WakeUpNews  
-👉 [YouTube](https://youtube.com/@WakeUpNews)  
-👉 [Instagram](https://instagram.com/WakeUpNews)  
-👉 [Twitter](https://x.com/WakeUpNews)  
-👉 [Facebook](https://facebook.com/WakeUpNews)  
-👉 [Telegram](https://t.me/WakeUpNews)
+<!-- 📲 Follow WakeUpNews -->
+<p style="margin-top:25px;">
+📲 Follow WakeUpNews<br><br>
+👉 <a href="https://youtube.com/@WakeUpNews">YouTube</a><br>
+👉 <a href="https://instagram.com/WakeUpNews">Instagram</a><br>
+👉 <a href="https://x.com/WakeUpNews">Twitter (X)</a><br>
+👉 <a href="https://facebook.com/WakeUpNews">Facebook</a><br>
+👉 <a href="https://t.me/WakeUpNews">Telegram</a><br>
+</p>
