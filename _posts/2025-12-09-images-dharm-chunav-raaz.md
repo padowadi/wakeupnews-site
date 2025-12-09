@@ -44,11 +44,11 @@ seo_schema:
 
 <!-- Correct Embed for Shorts -->  
 <iframe width="100%" height="500"
-src="https://www.youtube.com/embed/YwVcUmVqQFo"
-title="WakeUpNews Video" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
+  src="https://www.youtube.com/embed/o8pLziVfXF4"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 ---
 
 ## 🎙️ *10 सेकंड का ज़बरदस्त ओपनर (Prime Time Tone)*
