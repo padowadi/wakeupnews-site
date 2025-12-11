@@ -3,7 +3,7 @@ layout: post
 title: "चुनाव आते ही धर्म का खेल क्यों शुरू हो जाता है? विपक्ष का बड़ा हमला"
 description: "क्या धर्म और राजनीति का ये मेल सिर्फ़ इत्तेफ़ाक है या चुनावी रणनीति? विपक्ष ने सरकार पर धर्म की राजनीति का बड़ा आरोप लगाया – क्या यह चुनावी खेल है?"
 author: "WakeUpNews"
-thumbnail: "/assets/images/vipash-ka-bad-hamla.jpg"
+thumbnail: "/assets/images/vipash-ka-bada-hamla.jpg"
 uploadDate: "2025-12-10"
 video_shorts: "https://youtube.com/shorts/kO6dFHcJLsU"
 
