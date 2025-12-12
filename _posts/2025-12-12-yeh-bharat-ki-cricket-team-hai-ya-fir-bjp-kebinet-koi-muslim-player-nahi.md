@@ -43,12 +43,7 @@ seo_schema:
 [Watch on YouTube]({{ page.video_shorts }})  
 
 <!-- Correct Embed for Shorts -->
-<iframe width="100%" height="315"
-src="{{ page.video_shorts | replace: 'watch?v=', 'embed/' }}"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
+yeh-bharat-ki-cricket-team-hai-ya-fir-bjp-kebinet-koi-muslim-player-nahi.jpg
 ---
 
 # 🇮🇳 भारत ने लिया सबसे बड़ा फैसला  
