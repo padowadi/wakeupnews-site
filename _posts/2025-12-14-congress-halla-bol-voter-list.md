@@ -36,12 +36,15 @@ seo_schema:
 [Watch on YouTube]({{ page.video_shorts }})
 
 <!-- YouTube Shorts Embed -->
-<iframe width="100%" height="315"
-src="PASTE_EMBED_LINK_HERE"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
+<iframe 
+  width="100%" 
+  height="315"
+  src="https://www.youtube.com/embed/oxB3Q4sof74"
+  title="YouTube Shorts video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 ---
 
 # 🔥 कांग्रेस का हल्ला बोल — वोटर लिस्ट पर बड़ा आरोप
