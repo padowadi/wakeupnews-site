@@ -29,9 +29,21 @@ seo_schema:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
 ---
-🔴 30 सेकंड वीडियो न्यूज़
-👇 पूरा वीडियो देखें
-�
+
+### 🔴 30 सेकंड वीडियो न्यूज़  
+
+👇 पूरा वीडियो देखें  
+[Watch on YouTube]({{ page.video_shorts }})
+
+<iframe 
+  width="100%" 
+  height="315"
+  src="https://www.youtube.com/embed/WuOJCcs12uo"
+  title="YouTube Shorts video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 🏏 एशियन अंडर-19 वर्ल्ड कप फाइनल | भारत का सफर
 एशियन अंडर-19 वर्ल्ड कप के फाइनल मुकाबले में
