@@ -31,10 +31,8 @@ seo_schema:
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
 ---
 ### 🔴 30 सेकंड वीडियो न्यूज़  
-
 👇 पूरा वीडियो देखें  
 [Watch on YouTube]({{ page.video_shorts }})
-
 <!-- YouTube Shorts Embed -->
 <iframe 
   width="100%" 
