@@ -4,7 +4,7 @@ title: "यात्रीगण कृपया ध्यान दें | च
 description: "चुनाव खत्म होते ही रेल टिकट महंगी कर दी गई। संयोग या रणनीति, सवाल सीधे आम यात्रियों की जेब पर उठता है।"
 author: "WakeUpNews"
 thumbnail: "/assets/images/chinav-khatam-hote-he-rail-ticket-mahgi-thumb.jpg"
-date: 2025-12-21
+date: 2025-12-22
 uploadDate: "2025-12-22"
 video_shorts: "https://youtube.com/shorts/C9QahrZ-vOw"
 
