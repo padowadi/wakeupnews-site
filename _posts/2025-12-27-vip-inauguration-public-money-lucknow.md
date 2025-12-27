@@ -3,7 +3,7 @@ layout: post
 title: "काम जनता का, उद्घाटन VIP का? प्रधानमंत्री दौरे पर करोड़ों खर्च"
 description: "लखनऊ में बने पार्क और सार्वजनिक परियोजनाओं के उद्घाटन में करोड़ों का खर्च। सवाल: क्या जनता के पैसे से बने काम का उद्घाटन महंगे VIP इवेंट में होना चाहिए?"
 author: "WakeUpNews"
-thumbnail: "/assets/images/vip-inauguration-public-money-thumb.jpg
+thumbnail: "/assets/images/vip-inauguration-public-money-thumb.jpg"
 date: 2025-12-27
 uploadDate: 2025-12-27
 video_shorts: "https://youtube.com/shorts/263-WYCPFYM?si=hEpQcH2LftgXzRvQ"
@@ -30,7 +30,7 @@ seo_schema:
       "@type": "ImageObject"
       url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
 ---
-🔴 30 सेकंड वीडियो न्यूज़  
+🔴 209 सेकंड वीडियो न्यूज़  
 👇 पूरा वीडियो देखें  
 [Watch on YouTube]({{ page.video_shorts }})
 
