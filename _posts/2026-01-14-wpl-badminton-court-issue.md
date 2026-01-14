@@ -3,7 +3,7 @@ layout: post
 title: "Women’s IPL में विदेशी बैडमिंटन खिलाड़ी का खुलासा | दिल्ली कोर्ट पर सवाल"
 description: "Women’s IPL के दौरान डेनमार्क की महिला बैडमिंटन खिलाड़ी Mia Blichfeldt ने दिल्ली के बैडमिंटन कोर्ट की खराब स्थिति पर नाराज़गी जताई। उन्होंने कहा—पिछले साल भी हालात खराब थे और इस साल भी खेलने लायक नहीं।"
 author: "WakeUpNews"
-thumbnail: "/assets/images/wpl-badminton-ground-issue.jpg"
+thumbnail: "/assets/images/wpl-badminton-ground-issue.jpg
 date: 2026-01-14
 uploadDate: 2026-01-14
 video_shorts: "https://youtube.com/shorts/9eiw-wEKri0"
