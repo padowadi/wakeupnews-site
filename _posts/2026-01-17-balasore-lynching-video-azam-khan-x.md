@@ -4,8 +4,8 @@ title: "ओडिशा के बालासोर में मॉब लि�
 description: "ओडिशा के बालासोर ज़िले में मोहम्मद मरकंद शैख़ की कथित मॉब लिंचिंग का वीडियो X (Twitter) पर आजम खान द्वारा शेयर किया गया। वीडियो में ज़बरदस्ती नारे लगवाने और बेरहमी से पीटने के आरोप सामने आए हैं।"
 author: "WakeUpNews"
 thumbnail: "/assets/images/balasore-lynching-video-thumb.jpg"
-date: 2026-01-16
-uploadDate: 2026-01-16
+date: 2026-01-17
+uploadDate: 2026-01-17
 video_shorts: "https://youtube.com/shorts/eQTrqGc72YM"
 
 og:
@@ -33,6 +33,7 @@ seo_schema:
 
 🔴 *वायरल वीडियो रिपोर्ट*  
 👇 नीचे देखें  
+
 [Watch on YouTube]({{ page.video_shorts }})
 
 <iframe
@@ -44,6 +45,13 @@ seo_schema:
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
 </iframe>
+
+---
+
+📰 *Reported by:* WakeUpNews Desk  
+📍 *Location:* Balasore, Odisha  
+🗂 *Source:* Ground reporting & verified public information  
+🕒 *Published:* 16 January 2026
 
 ---
 
