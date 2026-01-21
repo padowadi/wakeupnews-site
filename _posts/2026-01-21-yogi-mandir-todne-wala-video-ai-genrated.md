@@ -9,7 +9,7 @@ description: "योगी आदित्यनाथ ने कहा मं�
 author: "WakeUpNews Desk"
 language: hi-IN
 
-thumbnail: "/assets/images/yogi-mandir-todne-wala-vodeo-ai-genrated-thumb.jpg
+thumbnail: "/assets/images/yogi-mandir-todne-wala-video-ai-genrated-thumb.jpg
 date: 2026-01-20
 uploadDate: 2026-01-20
 
