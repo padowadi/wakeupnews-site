@@ -7,8 +7,7 @@ layout: none
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/main.css">
-  
-  {% include video-schema.html %}  <!-- ← Auto Video Schema Include -->
+  {% include video-schema.html %}
 </head>
 
 <body>
@@ -18,74 +17,94 @@ layout: none
       margin: 0;
       background: #f8f9fa;
     }
+
     .header {
       background: #111;
       color: #fff;
       text-align: center;
       padding: 15px;
     }
+
     .main {
       display: grid;
       grid-template-columns: 280px 1fr;
       gap: 25px;
       padding: 20px;
     }
+
     .sidebar {
       background: #fff;
       border-radius: 12px;
       padding: 15px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-      height: fit-content;
     }
+
     .sidebar h2 {
       font-size: 18px;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       color: #222;
       border-bottom: 2px solid #0077cc;
       padding-bottom: 5px;
     }
+
+    /* 🔥 GRID FIX */
+    .post-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
     .post-item {
       display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-      transition: all 0.3s ease;
-      border-radius: 8px;
+      gap: 8px;
       padding: 6px;
+      border-radius: 8px;
+      transition: 0.2s;
     }
+
     .post-item:hover {
       background: #f0f8ff;
       transform: scale(1.02);
     }
+
     .post-thumb {
-      width: 55px;
-      height: 40px;
+      width: 50px;
+      height: 38px;
       border-radius: 5px;
       object-fit: cover;
       background: #ddd;
     }
-    .post-info {
-      flex: 1;
-    }
+
     .post-info a {
       display: block;
       color: #0077cc;
       font-weight: 600;
-      font-size: 14px;
+      font-size: 13px;
+      line-height: 1.2;
       text-decoration: none;
     }
-    .post-info a:hover {
-      text-decoration: underline;
-    }
+
     .post-info small {
       color: #666;
-      font-size: 12px;
+      font-size: 11px;
     }
+
     .content {
       background: #fff;
       border-radius: 12px;
       padding: 20px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    /* 📱 MOBILE FIX */
+    @media (max-width: 768px) {
+      .main {
+        grid-template-columns: 1fr;
+      }
+
+      .post-list {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 
@@ -94,27 +113,32 @@ layout: none
   </div>
 
   <div class="main">
-    <!-- 🔹 Sidebar (Google Sites Style) -->
+
+    <!-- 🔹 Sidebar -->
     <div class="sidebar">
       <h2>📰 Latest Headlines</h2>
-      {% for post in site.posts %}
-      <div class="post-item">
-        {% if post.thumbnail %}
-        <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
-        {% else %}
-        <img class="post-thumb" src="/assets/images/default-thumb.jpg" alt="No Image">
-        {% endif %}
-        <div class="post-info">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <small>{{ post.date | date: "%d %b %Y" }}</small>
+
+      <div class="post-list">
+        {% for post in site.posts limit:8 %}
+        <div class="post-item">
+          {% if post.thumbnail %}
+          <img class="post-thumb" src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+          {% else %}
+          <img class="post-thumb" src="/assets/images/default-thumb.jpg" alt="No Image">
+          {% endif %}
+          <div class="post-info">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <small>{{ post.date | date: "%d %b %Y" }}</small>
+          </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
 
-    <!-- 🔹 Main Post Area -->
+    <!-- 🔹 Main Content -->
     <div class="content">
       {{ content }}
     </div>
+
   </div>
 </body>
