@@ -100,7 +100,8 @@ seo_schema:
 
 ## ▶️ पूरा वीडियो देखें (YouTube Shorts)
 
- <iframe 
+ <div style="position:relative;padding-bottom:177.77%;height:0;overflow:hidden;">
+  <iframe 
     src="https://www.youtube.com/embed/F4f7Gwzi4C0" 
     title="YouTube Shorts video"
     frameborder="0"
@@ -108,6 +109,7 @@ seo_schema:
     allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;">
   </iframe>
+</div>
 
 🔗 *Direct YouTube Link*  
 https://youtube.com/shorts/iXPBBVm-72A?si=gB55bBz-uZjy2ttO
