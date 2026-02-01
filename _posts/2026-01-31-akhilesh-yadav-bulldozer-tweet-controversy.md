@@ -10,8 +10,8 @@ language: hi-IN
 
 thumbnail: "/assets/images/akhilesh-yadav-bulldozer-tweet-controversy-thumb.jpg"
 
-date: 2026-01-30
-uploadDate: 2026-0-30
+date: 2026-01-31
+uploadDate: 2026-0-31
 
 categories:
   - Politics
