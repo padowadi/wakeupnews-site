@@ -10,8 +10,8 @@ language: hi-IN
 
 thumbnail: "/assets/images/exit-poll-open-challenge-wakeupnews-thumb.jpg"
 
-date: 2026-02-02
-uploadDate: 2026-02-02
+date: 2026-02-01
+uploadDate: 2026-02-01
 
 categories:
   - Politics
