@@ -10,8 +10,8 @@ language: hi-IN
 
 thumbnail: "/assets/images/t20-2026-media-fear-narrative-thumb.jpg"
 
-date: 2026-02-03
-uploadDate: 2026-02-03
+date: 2026-02-04
+uploadDate: 2026-02-04
 
 categories:
   - Cricket
