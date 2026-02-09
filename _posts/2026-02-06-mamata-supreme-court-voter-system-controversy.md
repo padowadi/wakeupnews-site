@@ -123,20 +123,17 @@ seo_schema:
 
 ## ▶️ पूरा वीडियो देखें
 
-<iframe
-  width="100%"
-  height="480"
-  src="https://www.youtube.com/embed/hn4ipfC48BU"
-  title="WakeUpNews Video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
+<iframe width="315" height="560"
+src="https://www.youtube.com/embed/XujLHocjlic"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
 </iframe>
----
 
 🔗 *Direct YouTube Link*  
-https://youtu.be/ltpPhMf6ROg?si=r9WBVO27f1N2vaDU
-
+[https://youtu.be/ltpPhMf6ROg?si=r9WBVO27f1N2vaDU
+](https://youtube.com/shorts/XujLHocjlic?si=TlW39S9w8vhdzMWb)
 ---
 
 ## 📢 WakeUpNews Stand
