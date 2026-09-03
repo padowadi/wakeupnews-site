@@ -10,8 +10,8 @@ language: hi-IN
 
 thumbnail: "/assets/images/jpnic-lucknow-lease-controversy-thumb.jpg"
 
-date: 2026-09-01
 uploadDate: 2026-09-01
+permalink: /2026/09/01/jpnic-lucknow-lease.html
 
 categories:
   - Uttar Pradesh
