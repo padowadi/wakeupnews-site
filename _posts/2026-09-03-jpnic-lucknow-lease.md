@@ -1,5 +1,4 @@
 ---
-
 layout: post
 post_type: news
 status: publish
@@ -15,26 +14,24 @@ date: 2026-09-01
 uploadDate: 2026-09-01
 
 categories:
-
-- Uttar Pradesh
-- Lucknow
-- JPNIC
-- Ground Report
-- Infrastructure
-- Politics
+  - Uttar Pradesh
+  - Lucknow
+  - JPNIC
+  - Ground Report
+  - Infrastructure
+  - Politics
 
 tags:
-
-- JPNIC Lucknow
-- Jai Prakash Narayan International Centre
-- JPNIC Lease
-- Lucknow News
-- Yogi Adityanath
-- Akhilesh Yadav
-- LDA
-- Uttar Pradesh News
-- Private Consortium
-- WakeUpNews
+  - JPNIC Lucknow
+  - Jai Prakash Narayan International Centre
+  - JPNIC Lease
+  - Lucknow News
+  - Yogi Adityanath
+  - Akhilesh Yadav
+  - LDA
+  - Uttar Pradesh News
+  - Private Consortium
+  - WakeUpNews
 
 video_shorts: "https://youtube.com/shorts/nOXi0a_keKo?si=5lN0ZU6owaEntvYP"
 
@@ -43,31 +40,32 @@ meta_description: "JPNIC की पूरी कहानी — करीब 82
 indexing: index, follow
 
 og:
-title: "{{ page.title }}"
-description: "{{ page.description }}"
-image: "{{ page.thumbnail }}"
-url: "{{ page.url | absolute_url }}"
-type: "article"
+  title: "{{ page.title }}"
+  description: "{{ page.description }}"
+  image: "{{ page.thumbnail }}"
+  url: "{{ page.url | absolute_url }}"
+  type: "article"
 
 seo_schema:
-"@context": "https://schema.org"
-"@type": "NewsArticle"
-headline: "{{ page.title }}"
-description: "{{ page.description }}"
-image: "{{ page.thumbnail }}"
-datePublished: "{{ page.uploadDate }}"
-dateModified: "{{ page.uploadDate }}"
-author:
-"@type": "Organization"
-name: "WakeUpNews"
-publisher:
-"@type": "Organization"
-name: "WakeUpNews"
-logo:
-"@type": "ImageObject"
-url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
+  "@context": "https://schema.org"
+  "@type": "NewsArticle"
+  headline: "{{ page.title }}"
+  description: "{{ page.description }}"
+  image: "{{ page.thumbnail }}"
+  datePublished: "{{ page.uploadDate }}"
+  dateModified: "{{ page.uploadDate }}"
+  author:
+    "@type": "Organization"
+    name: "WakeUpNews"
+  publisher:
+    "@type": "Organization"
+    name: "WakeUpNews"
+    logo:
+      "@type": "ImageObject"
+      url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/images/wakeupnews-logo.png"
+---
 
-🔥 JPNIC — बना क्यों था? रुका क्यों? और अब निजी हाथों में क्यों?
+## 🔥 JPNIC — बना क्यों था? रुका क्यों? और अब निजी हाथों में क्यों?
 
 लखनऊ वालों…
 
@@ -75,19 +73,19 @@ url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/ima
 
 लेकिन क्या आपने कभी सोचा है कि आखिर इस इमारत को बनाया किसलिए गया था?
 
-जिस प्रोजेक्ट में ₹821 करोड़ से ज्यादा की रकम खर्च हो चुकी है…
+जिस प्रोजेक्ट में *₹821 करोड़ से ज्यादा की रकम* खर्च हो चुकी है…
 
 उसमें convention centre था, auditorium था, Olympic-standard swimming pool था, sports facilities थीं, museum था, multi-level parking थी और rooftop helipad जैसी सुविधाएं भी प्रस्तावित थीं।
 
 तो फिर सवाल है—
 
-2017 के बाद यह परियोजना लंबे समय तक बंद क्यों रही?
+*2017 के बाद यह परियोजना लंबे समय तक बंद क्यों रही?*
 
 करीब 9 साल तक यह इमारत गैर-कार्यशील क्यों पड़ी रही?
 
 और अब सबसे बड़ा सवाल—
 
-जिस प्रोजेक्ट पर जनता के 800 करोड़ रुपये से ज्यादा खर्च हो चुके हैं, उसे 30 साल के लिए निजी हाथों में देने की जरूरत क्यों पड़ी?
+*जिस प्रोजेक्ट पर जनता के 800 करोड़ रुपये से ज्यादा खर्च हो चुके हैं, उसे 30 साल के लिए निजी हाथों में देने की जरूरत क्यों पड़ी?*
 
 आखिर JPNIC की पूरी कहानी क्या है?
 
@@ -95,9 +93,9 @@ url: "https://raw.githubusercontent.com/padowadi/wakeupnews-site/main/assets/ima
 
 ---
 
-🏛️ JPNIC आखिर है क्या?
+## 🏛️ JPNIC आखिर है क्या?
 
-JPNIC यानी Jai Prakash Narayan International Centre।
+JPNIC यानी *Jai Prakash Narayan International Centre*।
 
 लखनऊ के गोमती नगर में करीब 18 एकड़ में तैयार किया गया यह सिर्फ एक सामान्य भवन नहीं था।
 
@@ -109,33 +107,33 @@ JPNIC यानी Jai Prakash Narayan International Centre।
 
 ---
 
-🏊 JPNIC में क्या-क्या सुविधाएं थीं?
+## 🏊 JPNIC में क्या-क्या सुविधाएं थीं?
 
 इस विशाल परिसर में कई बड़ी सुविधाओं की योजना थी—
 
-🏛️ Convention Centre — बड़े सम्मेलनों और कार्यक्रमों के लिए
+🏛️ *Convention Centre* — बड़े सम्मेलनों और कार्यक्रमों के लिए
 
-🎭 Auditorium — सांस्कृतिक और सार्वजनिक कार्यक्रमों के लिए
+🎭 *Auditorium* — सांस्कृतिक और सार्वजनिक कार्यक्रमों के लिए
 
-🏊 Olympic-standard Swimming Pool — diving facilities के साथ
+🏊 *Olympic-standard Swimming Pool* — diving facilities के साथ
 
-🎾 Sports Facilities — tennis, badminton और multipurpose facilities
+🎾 *Sports Facilities* — tennis, badminton और multipurpose facilities
 
-🏛️ Museum — जयप्रकाश नारायण के जीवन और विचारों से जुड़ा संग्रहालय
+🏛️ *Museum* — जयप्रकाश नारायण के जीवन और विचारों से जुड़ा संग्रहालय
 
-🚗 Multi-level Parking — करीब 750 वाहनों के लिए
+🚗 *Multi-level Parking* — करीब 750 वाहनों के लिए
 
-🚁 Rooftop Helipad
+🚁 *Rooftop Helipad*
 
-🏨 Hospitality और Rooms जैसी सुविधाएं
+🏨 *Hospitality और Rooms* जैसी सुविधाएं
 
-रिपोर्टों के मुताबिक परिसर में करीब 100 से ज्यादा कमरों वाला hotel भी प्रस्तावित/निर्मित था और convention centre में करीब 2,000 लोगों की क्षमता बताई गई है।
+रिपोर्टों के मुताबिक परिसर में hotel और करीब 2,000 लोगों की क्षमता वाला convention centre भी शामिल था।
 
 यानी इसे लखनऊ के बड़े public infrastructure projects में शामिल किया गया था।
 
 ---
 
-🔥 फिर 2017 के बाद क्या हुआ?
+## 🔥 फिर 2017 के बाद क्या हुआ?
 
 JPNIC परियोजना ने 2013-14 के आसपास आकार लेना शुरू किया।
 
@@ -145,21 +143,21 @@ JPNIC परियोजना ने 2013-14 के आसपास आका�
 
 इसके बाद JPNIC लंबे समय तक गैर-कार्यशील और अधूरा पड़ा रहा।
 
-समय के साथ परिसर की हालत भी खराब होती गई और परियोजना पर खर्च बढ़ता गया।
+समय के साथ परिसर की हालत भी खराब होती गई।
 
 तो सवाल सिर्फ यह नहीं है कि—
 
-काम क्यों रोका गया?
+*काम क्यों रोका गया?*
 
 सवाल यह भी है—
 
-इतने बड़े public project को इतने लंबे समय तक दोबारा शुरू क्यों नहीं किया गया?
+*इतने बड़े public project को इतने लंबे समय तक दोबारा शुरू क्यों नहीं किया गया?*
 
 ---
 
-💰 ₹821 करोड़ का सवाल
+## 💰 ₹821 करोड़ का सवाल
 
-JPNIC परियोजना में अब तक करीब ₹821 करोड़ की रकम खर्च/जारी होने की बात सामने आई है।
+JPNIC परियोजना में अब तक करीब *₹821 करोड़* की रकम खर्च/जारी होने की बात सामने आई है।
 
 यानी जिस परियोजना की शुरुआती लागत काफी कम बताई गई थी, उसका खर्च बढ़कर 800 करोड़ रुपये से ज्यादा पहुंच गया।
 
@@ -167,61 +165,61 @@ JPNIC परियोजना में अब तक करीब ₹821 क�
 
 यहीं से JPNIC की कहानी और बड़ा सवाल बन जाती है—
 
-इतना पैसा खर्च होने के बाद भी यह सुविधा जनता को पूरी तरह क्यों नहीं मिल पाई?
+*इतना पैसा खर्च होने के बाद भी यह सुविधा जनता को पूरी तरह क्यों नहीं मिल पाई?*
 
 ---
 
-🏗️ अभी भी ₹200–250 करोड़ का काम बाकी
+## 🏗️ अभी भी ₹200–250 करोड़ का काम बाकी
 
 JPNIC को पूरी तरह operational बनाने के लिए अभी भी कई काम बाकी बताए गए हैं।
 
-इनकी अनुमानित लागत करीब ₹200 से ₹250 करोड़ बताई गई है।
+इनकी अनुमानित लागत करीब *₹200 से ₹250 करोड़* बताई गई है।
 
 इनमें interiors, electrical systems, fire-safety work, sports complex की finishing, gym और VVIP rooms, cafeteria, hotel block और swimming pool से जुड़े काम शामिल हैं।
 
 यानी—
 
-₹821 करोड़ खर्च होने के बाद भी कहानी पूरी नहीं हुई।
+*₹821 करोड़ खर्च होने के बाद भी कहानी पूरी नहीं हुई।*
 
 ---
 
-🏢 अब निजी consortium को 30 साल की लीज
+## 🏢 अब निजी consortium को 30 साल की लीज
 
 अब कहानी का सबसे बड़ा नया मोड़…
 
 उत्तर प्रदेश सरकार ने JPNIC को निजी consortium को lease पर देने की मंजूरी दी है।
 
-इस consortium में Vrindavan Bottlers और Rockwood Hotels & Resorts शामिल हैं।
+इस consortium में *Vrindavan Bottlers और Rockwood Hotels & Resorts* शामिल हैं।
 
 निजी operator को बाकी अधूरे काम अपने खर्च पर पूरे करने और उसके बाद centre का संचालन और maintenance करने की जिम्मेदारी दी गई है।
 
-महत्वपूर्ण बात यह है कि इसे सीधी बिक्री नहीं कहा गया है।
+महत्वपूर्ण बात यह है कि इसे *सीधी बिक्री नहीं कहा गया है।*
 
 JPNIC की जमीन और संपत्ति का ownership LDA के पास रहेगा, जबकि निजी operator lease की शर्तों के तहत इसका संचालन करेगा।
 
 ---
 
-⚖️ सरकार का तर्क क्या है?
+## ⚖️ सरकार का तर्क क्या है?
 
-सरकार और LDA की तरफ से तर्क है कि JPNIC को पूरा करने में अभी करीब ₹200–250 करोड़ की जरूरत हो सकती है।
+सरकार और LDA की तरफ से तर्क है कि JPNIC को पूरा करने में अभी करीब *₹200–250 करोड़* की जरूरत हो सकती है।
 
 अगर सरकार खुद यह काम पूरा करती है तो अतिरिक्त सरकारी खर्च करना पड़ेगा।
 
-नई व्यवस्था में निजी consortium यह बाकी काम अपने खर्च पर करेगा।
+नई व्यवस्था में निजी consortium यह बाकी काम *अपने खर्च पर* करेगा।
 
 इसके बदले उसे centre को operate करने का अधिकार मिलेगा और LDA को तय भुगतान भी किया जाएगा।
 
 यानी सरकार का तर्क है—
 
-निजी निवेश → अधूरा काम पूरा → संचालन → LDA को भुगतान।
+*निजी निवेश → अधूरा काम पूरा → संचालन → LDA को भुगतान।*
 
 ---
 
-❓ लेकिन लखनऊ की जनता का सवाल?
+## ❓ लेकिन लखनऊ की जनता का सवाल?
 
 यहीं से सबसे बड़ा सवाल सामने आता है—
 
-जिस परियोजना पर पहले ही ₹800 करोड़ से ज्यादा खर्च हो चुके हैं…
+जिस परियोजना पर पहले ही *₹800 करोड़ से ज्यादा* खर्च हो चुके हैं…
 
 उसे इतने लंबे समय के लिए निजी operator को देना ही क्यों जरूरी था?
 
@@ -233,7 +231,7 @@ JPNIC की जमीन और संपत्ति का ownership LDA क�
 
 ---
 
-🏛️ JPNIC पर राजनीतिक विवाद
+## 🏛️ JPNIC पर राजनीतिक विवाद
 
 JPNIC शुरू से ही उत्तर प्रदेश की राजनीति में चर्चा का विषय रहा है।
 
@@ -247,35 +245,35 @@ JPNIC शुरू से ही उत्तर प्रदेश की र�
 
 यानी JPNIC सिर्फ एक building project नहीं रह गया है—
 
-यह अब विकास, सरकारी खर्च, जवाबदेही और निजी भागीदारी की बहस का भी हिस्सा बन चुका है।
+यह अब *विकास, सरकारी खर्च, जवाबदेही और निजी भागीदारी* की बहस का भी हिस्सा बन चुका है।
 
 ---
 
-🎯 WakeUpNews Final Question
+## 🎯 WakeUpNews Final Question
 
-₹821 करोड़ खर्च हुए…
+*₹821 करोड़ खर्च हुए…*
 
-करीब 9 साल तक परियोजना बंद रही…
+*करीब 9 साल तक परियोजना बंद रही…*
 
-अभी भी ₹200–250 करोड़ का काम बाकी है…
+*अभी भी ₹200–250 करोड़ का काम बाकी है…*
 
 और अब—
 
-30 साल के लिए निजी consortium को संचालन की जिम्मेदारी।
+*30 साल के लिए निजी consortium को संचालन की जिम्मेदारी।*
 
 तो सवाल यही है—
 
-क्या JPNIC को निजी हाथों में देना इस अधूरे प्रोजेक्ट को पूरा करने का व्यावहारिक रास्ता है?
+*क्या JPNIC को निजी हाथों में देना इस अधूरे प्रोजेक्ट को पूरा करने का व्यावहारिक रास्ता है?*
 
 या—
 
-इतना पैसा खर्च होने के बाद सरकार को खुद इसे पूरा करके जनता के लिए चलाना चाहिए था?
+*इतना पैसा खर्च होने के बाद सरकार को खुद इसे पूरा करके जनता के लिए चलाना चाहिए था?*
 
 फैसला और सवाल—दोनों जनता के सामने हैं।
 
 ---
 
-▶️ पूरा वीडियो देखें
+## ▶️ पूरा वीडियो देखें
 
 <iframe
   width="100%"
@@ -285,7 +283,10 @@ JPNIC शुरू से ही उत्तर प्रदेश की र�
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
-</iframe>---
+</iframe>
 
-🔗 Direct YouTube Link
+---
+
+🔗 *Direct YouTube Link*
+
 https://youtube.com/shorts/nOXi0a_keKo?si=5lN0ZU6owaEntvYP
